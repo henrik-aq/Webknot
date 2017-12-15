@@ -7,10 +7,10 @@ We’re Webknot — your digital funeral parlor. We take care of your online pre
 We offer three distinct packages to suit your specific needs. We recommend that you sign up for a plan while you are still alive, however, it’s also possible to purchase plans for friends and family. Gift cards are available for our exclusive tier 3 plan. 
 
 ## Tier 1: standard
-> *We’ll help you evade post-death shame by deleting your browser search history
-> *Automatic deletion of late night Instagram postings and inspirational quotes on Facebook
-> *Deletion of questionable Snapchats that you’ve been hiding from your partner
-> *Custom personal memorial site
+ *We’ll help you evade post-death shame by deleting your browser search history
+ *Automatic deletion of late night Instagram postings and inspirational quotes on Facebook
+ *Deletion of questionable Snapchats that you’ve been hiding from your partner
+ *Custom personal memorial site
 
 ## Tier 2: premium
 > *Everything from tier 1
