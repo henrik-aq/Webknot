@@ -1,9 +1,9 @@
 # Webknot
 
-*Description*
+*Description*<br>
 We’re Webknot — your digital funeral parlor. We take care of your online presence by cleaning up embarrassing behaviors on social media, wiping your search history, and immortalizing you with a bespoke website in your honor built specifically to your standards. With Webknot, dying is no longer an issue.
 
-*Services*
+*Services*<br>
 We offer three distinct packages to suit your specific needs. We recommend that you sign up for a plan while you are still alive, however, it’s also possible to purchase plans for friends and family. Gift cards are available for our exclusive tier 3 plan. 
 
 ##Tier 1: standard
