@@ -24,6 +24,6 @@ We offer three distinct packages to suit your specific needs. We recommend that 
 ### Tier 3: Immortal
 * Everything from tier 1 and 2
 Webknot-branded cedar wood casket and livestreamed cremation
-* Insurance: In case of false positives, we will provide services to ensure quick death using your preferred method
 * Eligible for organ reservations and trading programs on Webknot Markets
 * Permalife™ 3D printing filament from ashes enable relatives to construct objects with familiarity 
+* Insurance included: in case of false positives, we will provide services to ensure quick death using your preferred method
