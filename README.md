@@ -19,11 +19,12 @@ We offer three distinct packages to suit your specific needs. We recommend that 
 * Friendship grooming by careful evaluation and rejection of unwanted Facebook connections
 * Personalized .deceased domain for memorial site
 * Memorial fund for donations 
+* Permalife™ 3D printing filament from ashes enable relatives to construct objects with familiarity 
 
 
 ### Tier 3: Immortal
 * Everything from tier 1 and 2
-Webknot-branded cedar wood casket and livestreamed cremation
+* Replies on social media: our representatives simulate your behavior by replying to posts using information gathered from your profile (2 years) 
+* Webknot-branded cedar wood casket and livestreamed cremation
 * Eligible for organ reservations and trading programs on Webknot Markets
-* Permalife™ 3D printing filament from ashes enable relatives to construct objects with familiarity 
-* Insurance included: in case of false positives, we will provide services to ensure quick death using your preferred method
+* Insurance: in case of false positives, we will provide services to ensure quick death using your preferred method
