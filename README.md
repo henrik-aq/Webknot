@@ -24,7 +24,7 @@ We offer three distinct packages to suit your specific needs. We recommend that 
 
 ### Tier 3: Immortal
 * Everything from tier 1 and 2
-* Replies on social media: our representatives simulate your behavior by replying to posts using information gathered from your profile (2 years) 
+* AI simulation of your behavior with information gathered from your profile, using machine learning to reply to posts (for 2 years) 
 * Webknot-branded cedar wood casket and livestreamed cremation
 * Eligible for organ reservations and trading programs on Webknot Markets
 * Insurance: in case of false positives, we will provide services to ensure quick death using your preferred method
