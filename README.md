@@ -11,19 +11,21 @@ We offer three distinct packages to suit your specific needs. We recommend that 
 * Automatic deletion of late night Instagram postings and inspirational quotes on Facebook
 * Deletion of questionable Snapchats that you’ve been hiding from your partner
 * Custom personal memorial site
+* Memorial fund for donations 
+
 
 
 ### Tier 2: Perennial
 * Everything from tier 1
 * Heroic exaggerations of achievements on LinkedIn (where possible)
 * Friendship grooming by careful evaluation and rejection of unwanted Facebook connections
+* AI simulation of your behavior with information gathered from your profile, using machine learning to reply to posts (for 2 years) 
 * Personalized .deceased domain for memorial site
-* Memorial fund for donations 
 
 
 ### Tier 3: Immortal
 * Everything from tier 1 and 2
-Webknot-branded cedar wood casket and livestreamed cremation
-* Eligible for organ reservations and trading programs on Webknot Markets
 * Permalife™ 3D printing filament from ashes enable relatives to construct objects with familiarity 
-* Insurance included: in case of false positives, we will provide services to ensure quick death using your preferred method
+* Webknot-branded cedar wood casket and livestreamed cremation
+* Eligible for organ reservations and trading programs on Webknot Markets
+* Insurance: in case of false positives, we will provide services to ensure quick death using your preferred method
