@@ -1,15 +1,17 @@
 .nav {
+  position: absolute;
+  top: 0;
   width: $full;
-  background-color: $color-background-alt;
-  padding: $large;
 }
 
+// hamburger
 .nav-hamburger {
   position: fixed;
   top: $medium;
   right: $medium;
   width: $font-size-medium;
   height: $font-size-medium;
+  z-index: 10;
 
   div {
     position: relative;
@@ -30,13 +32,53 @@
 .nav-hamburger-bottom {
 }
 
+// menu
 .nav-menu {
-  background: red;
+  background-color: $color-background-alt;
+  padding: $large 0;
   text-align: center;
+  transform-origin: top;
+  transform: scaleY(0);
+
   a {
     color: $color-text;
   }
+
   ul li {
     margin: $small 0;
+  }
+}
+
+.nav-is-active {
+  animation: menuAnimationOn .5s 1;
+  transform: scaleY(1);
+}
+
+.nav-not-active {
+  animation: menuAnimationOff .3s 1;
+  transform: scaleY(0);
+}
+
+@keyframes menuAnimationOn {
+  0% {
+    transform: scaleY(0);
+  }
+  30% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes menuAnimationOff {
+  0% {
+    transform: scaleY(1);
+  }
+  70% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(0);
   }
 }
