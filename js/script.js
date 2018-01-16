@@ -2,14 +2,34 @@ var navHamburger      = document.getElementById("nav-hamburger");
 var navHamburgerLines = document.querySelectorAll("#nav-hamburger div");
 var navMenu           = document.getElementById("nav-menu");
 var navMenuAnchor     = document.querySelectorAll("#nav-menu a");
+var viewportWidth;
 
-console.log(navHamburgerLines);
+// constantly update the viewport width
+setInterval(function() {
+  viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  if (viewportWidth >= 960) {
+    navMenu.classList.add("nav-is-active");
+    navMenu.classList.remove("nav-not-active");
+    for (let i=0; i < navHamburgerLines.length; i++) {
+      navHamburgerLines[i].classList.add("hamburger-is-active");
+    }
+  }
+}, 1000/60);
 
+
+// EVENT LISTENERS
 navHamburger.addEventListener("click", toggleMenu);
+
 for (var i = 0; i < navMenuAnchor.length; i++) {
-  navMenuAnchor[i].addEventListener("click", toggleMenu);
+  navMenuAnchor[i].addEventListener("click", function() {
+    if (viewportWidth < 960) {
+      toggleMenu();
+    }
+  });
 }
 
+
+// FUNCTIONS
 function toggleMenu() {
   for (let i=0; i < navHamburgerLines.length; i++) {
     navHamburgerLines[i].classList.toggle("hamburger-is-active");
