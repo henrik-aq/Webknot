@@ -3,6 +3,8 @@
 ## Work method
 We'll work using a variant of Kanban. Progressive enhancement methodology is applied to ensure we deliver the best possible experience to all visitors of our website.
 
+We will work with Mobile First in mind.
+
 
 ====================================================================================
 
