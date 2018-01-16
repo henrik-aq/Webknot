@@ -1,12 +1,12 @@
 .nav {
+  position: fixed;
   top: 0;
   width: $full;
-  height: 20vh;
 }
 
 // hamburger
 .nav-hamburger {
-  position: fixed;
+  position: absolute;
   top: $medium;
   right: $medium;
   width: 2rem;

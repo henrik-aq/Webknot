@@ -1,2 +1,13 @@
 .header {
+  height: 50vh;
+
+  @media screen and (min-width: $desktop) {
+    height: 80vh;
+  }
+}
+
+.header-container {
+  @include flex(column, center, center);
+  height: 100%;
+  margin: 0 $large;
 }
