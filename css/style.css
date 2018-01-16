@@ -18,9 +18,9 @@ a, li {
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav {
-  position: absolute;
   top: 0;
   width: 100%;
+  height: 20vh;
 }
 
 /* line 8, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
@@ -48,29 +48,36 @@ a, li {
 /* line 28, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu {
   background-color: #DADEDE;
+  width: 100%;
   padding: 2rem 0;
   text-align: center;
   transform-origin: top;
   transform: scaleY(0);
 }
 
-/* line 35, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 36, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu a {
   color: #09110E;
 }
 
-/* line 39, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-menu ul li {
-  margin: 0.5rem 0;
+/* line 40, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-menu ul {
+  padding: 0;
+  margin: 0;
 }
 
-/* line 44, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-menu ul li {
+  margin: 1rem 0;
+}
+
+/* line 50, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-is-active {
   animation: menuAnimationOn .5s 1;
   transform: scaleY(1);
 }
 
-/* line 49, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 55, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-not-active {
   animation: menuAnimationOff .3s 1;
   transform: scaleY(0);

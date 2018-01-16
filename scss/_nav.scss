@@ -1,7 +1,7 @@
 .nav {
-  position: absolute;
   top: 0;
   width: $full;
+  height: 20vh;
 }
 
 // hamburger
@@ -27,6 +27,7 @@
 // menu
 .nav-menu {
   background-color: $color-background-alt;
+  width: $full;
   padding: $large 0;
   text-align: center;
   transform-origin: top;
@@ -36,8 +37,13 @@
     color: $color-text;
   }
 
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
   ul li {
-    margin: $small 0;
+    margin: $medium 0;
   }
 }
 
