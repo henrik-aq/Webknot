@@ -54,21 +54,36 @@
       -ms-transform: scaleY(0);
           transform: scaleY(0);
 
-  a {
-    color: $color-text;
-  }
-
-  a:hover {
-    color: $color-highlight
-  }
-
   ul {
     padding: 0;
     margin: 0;
+
+    li {
+      margin: $medium 0;
+    }
   }
 
-  ul li {
-    margin: $medium 0;
+  a {
+    display: inline-block;
+    color: $color-text;
+
+    &:hover {
+      color: $color-highlight;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      bottom: 0;
+      height: 2px;
+      background-color: $color-highlight;
+      transition: .2s ease;
+      transform: scaleX(0);
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
+    }
   }
 
   @media screen and (min-width: $tablet) {

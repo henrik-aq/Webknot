@@ -1,29 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
-/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_reset.scss */
+/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_reset.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 6, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_reset.scss */
+/* line 6, E:/Skola/Nackademin Projekt/Webknot/scss/_reset.scss */
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
-/* line 10, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_reset.scss */
+/* line 10, E:/Skola/Nackademin Projekt/Webknot/scss/_reset.scss */
 a, li {
   text-decoration: none;
   list-style-type: none;
 }
 
-/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* line 8, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-hamburger {
   position: absolute;
   top: 1rem;
@@ -33,7 +33,7 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 8, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-hamburger {
     top: 2rem;
     right: 2rem;
@@ -42,13 +42,13 @@ a, li {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 8, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-hamburger {
     display: none;
   }
 }
 
-/* line 26, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-hamburger-line {
   height: 4px;
   background-color: #09110E;
@@ -59,19 +59,19 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 26, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-hamburger-line {
     height: 6px;
     margin-bottom: 0.5rem;
   }
 }
 
-/* line 40, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 40, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .hamburger-is-active {
   background-color: #D80303;
 }
 
-/* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-menu {
   background-color: #DADEDE;
   width: 100%;
@@ -85,36 +85,53 @@ a, li {
   transform: scaleY(0);
 }
 
-/* line 57, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-menu a {
-  color: #09110E;
-}
-
-/* line 61, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-menu a:hover {
-  color: #D80303;
-}
-
-/* line 65, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 57, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-menu ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 70, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-menu ul li {
   margin: 1rem 0;
 }
 
+/* line 66, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+.nav-menu a {
+  display: inline-block;
+  color: #09110E;
+}
+
+/* line 70, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+.nav-menu a:hover {
+  color: #D80303;
+}
+
+/* line 74, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+.nav-menu a::after {
+  content: "";
+  display: block;
+  bottom: 0;
+  height: 2px;
+  background-color: #D80303;
+  transition: .2s ease;
+  transform: scaleX(0);
+}
+
+/* line 84, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+.nav-menu a:hover::after {
+  transform: scaleX(1);
+}
+
 @media screen and (min-width: 768px) {
-  /* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-menu {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 960px) {
-  /* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-menu {
     position: fixed;
     -webkit-transform: scaleY(1);
@@ -123,14 +140,14 @@ a, li {
     padding: 1rem 0;
     text-align: center;
   }
-  /* line 86, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 101, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-menu ul li {
     display: inline;
     margin: 0 2rem;
   }
 }
 
-/* line 93, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 108, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
@@ -139,7 +156,7 @@ a, li {
   transform: scaleY(1);
 }
 
-/* line 101, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 116, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;
@@ -211,19 +228,19 @@ a, li {
 /*
   TABLET
 */
-/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_header.scss */
+/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header {
   height: 50vh;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_header.scss */
+  /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
   .header {
     height: 80vh;
   }
 }
 
-/* line 9, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_header.scss */
+/* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,7 +259,7 @@ a, li {
   margin: 0 2rem;
 }
 
-/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_tags.scss */
+/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_tags.scss */
 body {
   font-family: 'Comfortaa', verdana;
 }
