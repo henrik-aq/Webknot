@@ -1,0 +1,1296 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+html {
+		font-family: 'Coming soon', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	background-size: cover;
+	color: #000;
+	line-height: 115%;
+	letter-spacing: .05em;
+}
+
+input, option, select, button {
+	font-family: 'Coming soon', sans-serif;
+	font-size: 100%;
+	border: 0;
+	background: none;
+}
+
+button {
+	font-size: 70%;
+}
+
+.everything {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: space-between;
+	    -ms-flex-align: space-between;
+	        align-items: space-between;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.container {
+	position: relative;
+	background-size: 100%;
+	background-position: center;
+	height: 1453px;
+	width: 1000px;
+	overflow: hidden;
+}
+
+.form1 {
+	background: url("img/form1Rensad.png") no-repeat;
+}
+
+.form2 {
+	background: url("img/form2Rensad.png") no-repeat;
+}
+
+#contentContainer {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* KNAPPAR */
+.button-container {
+	position: absolute;
+	top: 18%;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.button-container button {
+	margin: 0 1rem;
+	padding: .5rem;
+	-webkit-box-shadow: 0 0 2px #000;
+	        box-shadow: 0 0 2px #000;
+	pointer-events: auto;
+}
+
+#statRoll {
+}
+
+#charSheets {
+}
+
+#saveChar {
+}
+
+#loadChar {
+}
+
+
+
+/*
+	PERSONLIG INFORMATION
+*/
+.personlig-information {
+	position: absolute;
+	top: 1.5%;
+	left: 2%;
+	width: 306px;
+	height: 258px;
+}
+
+#Karnamn {
+	position: absolute;
+	top: 12%;
+	left: 20%;
+}
+
+#Spelnamn {
+	position: absolute;
+	top: 22%;
+	left: 21%;
+}
+
+#Folkslag {
+	position: absolute;
+	top: 31.7%;
+	left: 70%;
+	max-width: 80px;
+}
+
+#Alder {
+	position: absolute;
+	top: 41.5%;
+	left: 65%;
+	max-width: 80px;
+}
+
+#Religion {
+	position: absolute;
+	top: 90%;
+	left: 23%;
+}
+
+
+#ras {
+	position: absolute;
+	max-width: 6rem;
+	top: 31.5%;
+	left: 12%;
+}
+
+#kön {
+	position: absolute;
+	left: 15%;
+	top: 41%;
+}
+
+#klass {
+	position: absolute;
+	left: 15%;
+	top: 61%;
+}
+
+#längdResult {
+	position: absolute;
+	left: 18%;
+	top: 52%;
+}
+
+#viktResult {
+	position: absolute;
+	left: 62%;
+	top: 52%;
+}
+
+#VH /*VAPENHAND*/ {
+	position: absolute;
+	top: 72%;
+	left: 28%;
+}
+
+#SS /*Socialt stånd*/ {
+	position: absolute;
+	top: 81%;
+	left: 32%;
+}
+
+
+
+/* SYN */
+.syn {
+	position: absolute;
+	width: 312px;
+	height: 58px;
+	top: 20.6%;
+	left: 1.7%;
+}
+
+#syntyp {
+	position: absolute;
+	top: 7px;
+	left: 20%;
+	margin: 0;
+}
+
+#mSynLjus {
+	position: absolute;
+	top: 18px;
+	left: 75px;
+}
+
+#mSynMrk {
+	position: absolute;
+	top: 18px;
+	left: 220px;
+}
+
+/* FÄRDIGHETSPOÄNG */
+.fardighetspoang {
+	position: absolute;
+	width: 312px;
+	height: 58px;
+	top: 26%;
+	left: 1.7%;
+}
+
+.fardighetspoang input {
+	position: relative;
+	width: 30%;
+	left: 20%;
+	top: 50%;
+	margin-right: 10%;
+}
+
+.tot-fardighetspoang {
+
+}
+
+.nya-fardighetspoang {
+
+}
+
+
+/* GRUNDEGENSKAPER */
+#statHolder {
+	position: absolute;
+	top: 	24px;
+	right:	14px;
+	width: 	310px;
+	height: 260px;
+}
+
+#statHolder ul {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	list-style: none;
+	font-size: 130%;
+	padding: 0;
+	width: 100%;
+}
+
+#statHolder li {
+	top: 10px;
+	left: -40px;
+	margin: 2rem 40px;
+	float: left;
+}
+
+
+
+
+
+
+/*SEKUNDÄRA*/
+.sekundära {
+	position: absolute;
+	right: 	14px;
+	top: 	20.7%;
+	width: 310px;
+	height: 212px;
+	margin: 0;
+	padding: 0;
+}
+
+.sekundära ul {
+	position: relative;
+	float: right;
+	text-align: right;
+	top: 6%;
+	right: 1rem;
+}
+
+.sekundära ul li {
+	margin-top: .45rem;
+	list-style-type: none;
+}
+
+/*
+.clb {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.im{
+	position: absolute;
+	right: 105px;
+	top: 45px;
+}
+.kpm {
+	position: absolute;
+	right: 20px;
+	top: 70px;
+}
+.skr {
+	position: absolute;
+	right: 130px;
+	top: 95px;
+}
+.sb {
+	position: absolute;
+	right: 150px;
+	top: 118px;
+}
+
+.bar {
+	position: absolute;
+	right: 180px;
+	top: 145px;
+}
+
+.ff /*Förflyttning {
+	position: absolute;
+	right: 	80px;
+	top: 	170px;
+}*/
+
+.overvikt {
+	color: rgb(200, 0, 0);
+}
+
+.overvikt:hover::after {
+	content: attr(data-tooltip);
+	background: orange;
+	text-align: left;
+	padding: .2rem;
+	color: #000;
+	position: absolute;
+	bottom: -5rem;
+	left: 0;
+	z-index: 1;
+}
+
+
+
+
+/*
+STAT2
+*/
+#stat2 {
+	font-size: 95%;
+	text-align: left;
+	position: absolute;
+	left: 	20%;
+	top: 	32%;
+}
+
+#statist{
+	font-size: 95%;
+	list-style: none;
+}
+
+#statist li {
+}
+
+/*
+	SPI POÄNG
+*/
+.spi-poang {
+	position: absolute;
+	bottom: 2%;
+	right: 1.5%;
+	width: 310px;
+	height: 135px;
+}
+
+.spi-poang input {
+	display: block;
+	position: relative;
+}
+
+.full-spi {
+	top: 1.8rem;
+	left: 40%;
+	width: 60%;
+}
+
+.nu-spi {
+	top: 3rem;
+	left: 5%;
+	font-size: 2rem;
+	width: 90%;
+}
+
+
+/*
+	KROPPS POÄNG
+*/
+.KP { /* Kroppspoäng */
+	position: absolute;
+	top: 2.8%;
+	right: 6%;
+	width: 290px;
+	height: 190px;
+}
+
+.full-kp {
+	position: relative;
+	top: 14%;
+	left: 45%;
+	width: 50%;
+}
+
+.nu-kp {
+	position: relative;
+	top: 25%;
+	left: 5%;
+	width: 90%;
+	height: 2rem;
+	font-size: 1.5rem;
+}
+
+.skador {
+	position: relative;
+	top: 30%;
+	left: 20%;
+	width: 75%;
+	background: none;
+	text-decoration: none;
+	border: none;
+}
+
+#SK { /* STRIDSKAPACITET */
+	position: absolute;
+	top: 194.5%;
+	left: 33%;
+}
+
+
+
+/*
+	MAGIER
+*/
+.magi {
+	position: absolute;
+	width: 310px;
+	height: 740px;
+	top: 36.5%;
+	right: 1.5%;
+	font-size: 80%;
+	-webkit-transform: rotateX(1deg);
+	        transform: rotateX(1deg);
+}
+
+.magier-style {
+	position: relative;
+	width: 100%;
+	-webkit-transform: translateY(25px);
+	    -ms-transform: translateY(25px);
+	        transform: translateY(25px);
+}
+
+.magier-style td {
+	position: relative;
+	top: 7px;
+	left: 0;
+	padding-bottom: 1px;
+}
+
+.magier-style td:nth-child(odd) {
+	left: 5px;
+}
+
+.magier-magi {
+	min-width: 260px;
+	padding-right: 200px;
+	height: 19px;
+}
+
+
+.fv-magi {
+	position: relative;
+	width: 35px;
+	text-align: center;
+
+}
+
+
+
+
+/* FÄRDIGHETER  */
+#FPoints {
+	position: absolute;
+	top: 139%;
+	left: 23.5%;
+}
+
+#skills  {
+	font-size: 70%;
+}
+
+
+/* KÄRNFÄRDIGHETER */
+.skills-core {
+	position: absolute;
+	width: 309px;
+	height: 185px;
+	top: 31.15%;
+	left: 1.9%;
+}
+
+.karn-fardighet {
+	min-width: 178px;
+}
+
+.karn-fardighet span:hover::after, .yrkes-fardighet span:hover::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	top: 0;
+	left: 100%;
+	padding: .5rem;
+	width: 12rem;
+	background: orange;
+	z-index: 10;
+	white-space: pre-wrap;
+}
+
+.skills-core table {
+	margin: 25px 0 0 3px;
+}
+
+.skills-core td {
+	padding: 1% 0;
+}
+
+.karn-td {
+	position: relative;
+	text-align: center;
+	min-width: 35px;
+}
+
+.karn-td input {
+	-webkit-transform: translateX(5px);
+	    -ms-transform: translateX(5px);
+	        transform: translateX(5px);
+}
+
+
+/* YRKESFÄRDIGHETER */
+.skills-class {
+	position: absolute;
+	width: 309px;
+	height: 490px;
+	left: 1.9%;
+	top: 45%;
+}
+
+.skills-class table {
+	margin: 29px 0 0 3px;
+}
+
+.skills-class td {
+	padding: 1% 0;
+}
+
+.yrkes-td {
+	position: relative;
+	text-align: center;
+	min-width: 35px;
+}
+
+.yrkes-td input {
+	-webkit-transform: translateX(5px);
+	    -ms-transform: translateX(5px);
+	        transform: translateX(5px);
+}
+
+.yrkes-fardighet {
+	min-width: 180px;
+}
+
+
+.skills-class td input, .skills-core td input, .allmanna td input, .magi td input {
+	max-width: 35px;
+}
+
+.fv {
+	position: relative;
+	-webkit-transform: translateX(15px);
+	    -ms-transform: translateX(15px);
+	        transform: translateX(15px);
+}
+
+
+/* ALLMÄNNA FÄRDIGHETER */
+.allmanna {
+	position: absolute;
+	width: 310px;
+	height: 488px;
+	top: 45%;
+	left: 34.8%;
+	font-size: 70%;
+}
+
+.allmanna table {
+	margin: 29px 0 0 3px;
+}
+
+.allmanna table td {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+.allmanna-fardigheter-fardighet {
+	min-width: 180px;
+	margin-right: 150px;
+	text-align: left;
+}
+
+.allmanna-fardigheter-bas {
+}
+
+.allmanna-fardigheter-kost {
+}
+
+.allmanna-fardigheter-fv {
+}
+
+/*
+	ÖVRIGT, BESKRIVNING, PERSONLIGHET osv...
+*/
+.beskrivning-container {
+	position: absolute;
+	bottom: 2.2%;
+	left: 1.5%;
+	height: 230px;
+	width: 640px;
+}
+
+.beskrivning {
+	position: relative;
+	left: 1%;
+	background: rgba(255, 255, 255, 0.8);
+	resize: none;
+	height: 220px;
+	width: 625px;
+}
+
+/*
+	UTRUSTNING
+*/
+.utrustning-container {
+	position: absolute;
+	left: 5%;
+	bottom: 11%;
+	height: 465px;
+	width: 580px;
+	-webkit-transform: rotateZ(.4deg);
+	    -ms-transform: rotate(.4deg);
+	        transform: rotateZ(.4deg);
+}
+
+.add-utrustning {
+	position: absolute;
+	font-size: 3rem;
+	left: 18%;
+	top: 53.8%;
+}
+
+.add-utrustning-2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.utrustning-table {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	z-index: 10;
+}
+
+
+.utrustning-td-utrustning {
+	display: inline-block;
+	width: 255px;
+	overflow: hidden;
+	margin-left: 5px;
+	height: 22px;
+}
+
+.utrustning-td-vikt {
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	margin-right: 5px;
+	height: 22px;
+}
+
+.utrustning-rad {
+	z-index: 10;
+}
+
+.sammanlagd-vikt-container {
+	position: absolute;
+	left: 34%;
+	bottom: 9.5%;
+	height: 25px;
+	width: 290px;
+}
+
+.sammanlagd-vikt {
+	position: relative;
+	float: right;
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	margin: 5px 6px 0 0;
+}
+
+/*
+	RUSTNING
+*/
+.rustning {
+	position: absolute;
+	left: 20%;
+	top: 4.4%;
+	height: 164px;
+	width: 434px;
+}
+
+.rustning span:hover::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	background: orange;
+	padding: .5rem;
+	left: 100%;
+	width: 15rem;
+}
+
+.rustning td, .rustning input {
+	padding: 0;
+	margin: 0;
+	height: 17px;
+}
+
+.rustning input {
+	margin: 2px 0;
+}
+
+.rustning-typ input {
+	width: 98px;
+}
+
+.rustning-special input, .rustning-skador input {
+	width: 108px;
+}
+
+.rustning-rv input, .rustning-vikt input, .rustning-kp input {
+	width: 35px;
+	text-align: center;
+}
+
+
+/*
+	Stridsgrund
+*/
+.stridsgrund {
+	position: absolute;
+	left: 8.6%;
+	top: 20.3%;
+	height: 73px;
+	width: 550px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+}
+
+.stridsgrund input {
+	width: 35px;
+	padding: 0;
+	margin: 0 1px;
+}
+
+.stridsgrund-vapen-att-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	position: relative;
+	width: 155px;
+	left: 2%;
+	margin-top: 2px;
+}
+
+.stridsgrund-skold {
+	position: absolute;
+	left: 25%;
+	top: 3%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	width: 380px;
+	margin: 0 3rem;
+}
+
+.stridsgrund-vapenskold {
+	position: absolute;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	width: 565px;
+}
+
+.stridsgrund-input-container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 155px;
+}
+
+/*
+	Stridskapacitet
+*/
+.stridskapacitet {
+	position: absolute;
+	left: 8%;
+	top: 30%;
+	height: 73px;
+	width: 550px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+}
+
+.stridskapacitet-input-container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 155px;
+}
+
+.stridskapacitet input {
+	width: 35px;
+	padding: 0;
+	margin: 0 1px;
+}
+
+.stridskapacitet-avstand {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	position: relative;
+	width: 155px;
+	left: 2%;
+	margin-top: 2px;
+}
+
+.stridskapacitet-narstrid {
+	position: absolute;
+	left: 25%;
+	top: 3%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	width: 380px;
+	margin: 0 3rem;
+}
+
+.stridskapacitet-vapenskold {
+	position: absolute;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	width: 565px;
+}
+
+/*
+	Vapen
+*/
+.vapen {
+	position: absolute;
+	left: 5.3%;
+	top: 37.9%;
+	height: 140px;
+	width: 580px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+}
+
+.vapen tr {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.vapen input {
+	height: 17px;
+}
+
+.vapen-table td:hover::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background: orange;
+	padding: .5rem;
+	width: 10rem;
+}
+
+.vapen tr td:nth-child(1) input{
+	width: 243px;
+}
+
+.vapen tr td:nth-child(2) input{
+	width: 30px;
+}
+
+.vapen tr td:nth-child(3) input{
+	width: 55px;
+}
+
+.vapen tr td:nth-child(4) input{
+	width: 30px;
+}
+
+.vapen tr td:nth-child(5) input{
+	width: 53px;
+}
+
+.vapen tr td:nth-child(6) input{
+	width: 30px;
+}
+
+.vapen tr td:nth-child(7) input{
+	width: 110px;
+}
+
+/*
+	Sköldar
+*/
+.skoldar {
+	position: absolute;
+	left: 5.3%;
+	top: 50.5%;
+	height: 48px;
+	width: 279px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+	margin: 0;
+	padding: 0;
+}
+
+.skoldar-table input {
+	height: 17px;
+	width: 32px;
+}
+
+.skoldar-table td:nth-child(1) input {
+	width: 200px;
+}
+
+/*
+* Sköldteknik
+*/
+.skoldteknik {
+	position: absolute;
+	left: 35.5%;
+	top: 50.7%;
+	height: 48px;
+	width: 279px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+	margin: 0;
+	padding: 0;
+}
+
+.skoldteknik-table input {
+	height: 17px;
+	width: 32px;
+}
+
+.skoldteknik-table td:first-child input {
+	width: 240px;
+}
+
+/*
+* Vapenteknik
+*/
+.vapenteknik {
+	position: absolute;
+	right: 6.8%;
+	top: 38%;
+	height: 140px;
+	width: 280px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+	margin: 0;
+	padding: 0;
+}
+
+.vapenteknik input {
+	height: 17px;
+}
+
+.vapenteknik-vapen {
+	width: 245px;
+}
+
+.vapenteknik-fv {
+	width: 32px;
+}
+
+/*
+*	Rustningsmodifikation
+*/
+.rustningsmodifikation {
+	position: absolute;
+	right: 6.8%;
+	top: 28.5%;
+	height: 95px;
+	width: 280px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+	margin: 0;
+	padding: 0;
+}
+
+.rustningsmodifikation table {
+	float: right;
+	text-align: right;
+	height: 17px;
+}
+
+.rustningsmodifikation input {
+	text-align: right;
+	height: 17px;
+	width: 60px;
+}
+
+/*
+*	Rustningsteknik
+*/
+
+.rustningsteknik {
+	position: absolute;
+	right: 6.6%;
+	top: 18.9%;
+	height: 95px;
+	width: 280px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+	margin: 0;
+	padding: 0;
+}
+
+.rustningsteknik table {
+	float: right;
+	text-align: right;
+	height: 17px;
+}
+
+.rustningsteknik input {
+	text-align: right;
+	height: 17px;
+	width: 125px;
+}
+
+.rustningsteknik-total-vikt {
+	float: none;
+	clear: both;
+	text-align: left;
+	width: 170px;
+}
+
+/*
+	pilar, lod eller slungstenar
+*/
+.skott-container {
+	position: absolute;
+	right: 6.6%;
+	top: 50.8%;
+	height: 46px;
+	width: 280px;
+	-webkit-transform: rotateZ(.3deg);
+	    -ms-transform: rotate(.3deg);
+	        transform: rotateZ(.3deg);
+	margin: 0;
+	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.skott {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-size: 2rem;
+}
+
+/*
+	Övrigt
+*/
+
+.ovrigt-container {
+	position: absolute;
+	right: 7%;
+	top: 57.1%;
+	height: 370px;
+	width: 277px;
+	margin: 0;
+	padding: 0;
+}
+
+.ovrigt {
+	height: 100%;
+	width: 100%;
+	background: none;
+	border: none;
+	resize: none;
+	font-size: 1.4rem;
+}
+
+/*
+	PENGAR
+*/
+.pengar {
+	position: absolute;
+	right: 7%;
+	bottom: 9.4%;
+	height: 70px;
+	width: 168px;
+	margin: 0;
+	padding: 0;
+}
+
+.pengar table {
+	position: relative;
+	float: center;
+
+}
+
+.pengar table input {
+	height: 17px;
+	width: 50px;
+	text-align: center;
+}
+
+/*
+	FÄRDIGHETER SÅ ATT DE KAN SPARAS OCH LADDAS I JS
+*/
+
+/* Krigare */
+#krigare-karn-vapenAvstand {min-width: 180px;}
+#krigare-karn-vapenNarstrid {min-width: 180px;}
+#krigare-karn-skold {min-width: 180px;}
+#krigare-yrkes-vapenAvstand {min-width: 180px;}
+#krigare-yrkes-vapenNarstrid {min-width: 180px;}
+#krigare-yrkes-terrang {min-width: 180px;}
+#krigare-yrkes-skold {min-width: 180px;}
+
+/* Helig krigare */
+#heligkrigare-karn-vapenValfri {min-width: 180px;}
+#heligkrigare-karn-vapenKost {width: 180px;}
+#heligkrigare-yrkes-skold {min-width: 180px;}
+#heligkrigare-yrkes-vapenAvstand {min-width: 180px;}
+#heligkrigare-yrkes-vapenNarstrid {min-width: 180px;}
+
+/* Tjuv */
+#tjuv-yrkes-vapenAvstand {min-width: 180px;}
+#tjuv-yrkes-vapenNarstrid {min-width: 180px;}
+
+/* Lärd */
+#lard-karn-kunskapFardighet-1 {min-width: 180px;}
+#lard-karn-kunskapBas-1 {}
+#lard-karn-kunskapKost-1 {}
+#lard-karn-kunskapFardighet-2 {min-width: 180px;}
+#lard-karn-kunskapBas-2 {}
+#lard-karn-kunskapKost-2 {}
+
+#lard-yrkes-kunskapFardighet-1 {min-width: 180px;}
+#lard-yrkes-kunskapBas-1 {}
+#lard-yrkes-kunskapKost-1 {}
+#lard-yrkes-kunskapFardighet-2 {min-width: 180px;}
+#lard-yrkes-kunskapBas-2 {}
+#lard-yrkes-kunskapKost-2 {}
+#lard-yrkes-kunskapFardighet-3 {min-width: 180px;}
+#lard-yrkes-kunskapBas-3 {}
+#lard-yrkes-kunskapKost-3 {}
+
+/* Jägare */
+#jagare-yrkes-vapenAvstand {min-width: 180px;}
+#jagare-yrkes-vapenNarstrid {min-width: 180px;}
+
+/* Hantverkare */
+#hantverkare-karn-hantverkFardighet-1 {min-width: 180px;}
+#hantverkare-karn-hantverkBas-1 {}
+#hantverkare-karn-hantverkKost-1 {}
+#hantverkare-karn-hantverkFardighet-2 {min-width: 180px;}
+#hantverkare-karn-hantverkBas-2 {}
+#hantverkare-karn-hantverkKost-2 {}
+#hantverkare-karn-hantverkFardighet-3 {min-width: 180px;}
+#hantverkare-karn-hantverkBas-3 {}
+#hantverkare-karn-hantverkKost-3 {}
+
+#hantverkare-karn-kunskapFardighet-1 {min-width: 180px;}
+#hantverkare-karn-kunskapBas-1 {}
+#hantverkare-karn-kunskapKost-1 {}
+#hantverkare-karn-kunskapFardighet-2 {min-width: 180px;}
+#hantverkare-karn-kunskapBas-2 {}
+#hantverkare-karn-kunskapKost-2 {}
+#hantverkare-karn-kunskapFardighet-3 {min-width: 180px;}
+#hantverkare-karn-kunskapBas-3 {}
+#hantverkare-karn-kunskapKost-3 {}
+
+#hantverkare-yrkes-hantverkFardighet-1 {min-width: 180px;}
+#hantverkare-yrkes-hantverkBas-1 {}
+#hantverkare-yrkes-hantverkKost-1 {}
+#hantverkare-yrkes-hantverkFardighet-2 {min-width: 180px;}
+#hantverkare-yrkes-hantverkBas-2 {}
+#hantverkare-yrkes-hantverkKost-2 {}
+#hantverkare-yrkes-hantverkFardighet-3 {min-width: 180px;}
+#hantverkare-yrkes-hantverkBas-3 {}
+#hantverkare-yrkes-hantverkKost-3 {}
+
+/* Handelsman */
+#handelsman-karn-kunskapFardighet {min-width: 180px;}
+#handelsman-karn-kunskapBas {}
+#handelsman-karn-kunskapKost {}
+#handelsman-yrkes-vapenValfri {min-width: 180px;}
+
+/* Underhållare */
+#underhallare-yrkes-vapenValfri {min-width: 180px;}
+#underhallare-yrkes-vapenKost {width: 180px;}

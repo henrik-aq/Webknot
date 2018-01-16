@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 @import "variables";
 @import "mixins";
 @import "reset";
@@ -6,7 +8,4 @@
 @import "services";
 @import "reviews";
 @import "footer";
-
-
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-font-family: 'Comfortaa', verdana;
+@import "tags";
