@@ -262,6 +262,8 @@ a, li {
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_tags.scss */
 body {
   font-family: 'Comfortaa', verdana;
+  background-color: #f2f4f3;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=../css/style.map */
