@@ -114,12 +114,18 @@ a, li {
   bottom: 0;
   height: 2px;
   background-color: #D80303;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
   transform: scaleX(0);
 }
 
-/* line 84, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 88, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-menu a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 
@@ -140,14 +146,14 @@ a, li {
     padding: 1rem 0;
     text-align: center;
   }
-  /* line 101, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 107, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav-menu ul li {
     display: inline;
     margin: 0 2rem;
   }
 }
 
-/* line 108, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 114, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
@@ -156,7 +162,7 @@ a, li {
   transform: scaleY(1);
 }
 
-/* line 116, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 122, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;
@@ -225,9 +231,6 @@ a, li {
   }
 }
 
-/*
-  TABLET
-*/
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header {
   height: 50vh;

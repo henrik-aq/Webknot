@@ -77,12 +77,18 @@
       bottom: 0;
       height: 2px;
       background-color: $color-highlight;
+      -webkit-transition: .2s ease;
+      -o-transition: .2s ease;
       transition: .2s ease;
-      transform: scaleX(0);
+      -webkit-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+              transform: scaleX(0);
     }
 
     &:hover::after {
-      transform: scaleX(1);
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
     }
   }
 
@@ -180,7 +186,3 @@
             transform: scaleY(0);
   }
 }
-
-/*
-  TABLET
-*/
