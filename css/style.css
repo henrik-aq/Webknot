@@ -53,6 +53,8 @@ a, li {
   height: 4px;
   background-color: #09110E;
   margin-bottom: 0.5rem;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
 }
 
@@ -64,96 +66,144 @@ a, li {
   }
 }
 
-/* line 38, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 40, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .hamburger-is-active {
   background-color: #D80303;
 }
 
-/* line 43, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu {
   background-color: #DADEDE;
   width: 100%;
   padding: 2rem 0;
   text-align: center;
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
   transform-origin: top;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
   transform: scaleY(0);
 }
 
-/* line 51, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 57, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu a {
   color: #09110E;
 }
 
-/* line 55, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 61, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu a:hover {
   color: #D80303;
 }
 
-/* line 59, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 65, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 64, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 70, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu ul li {
   margin: 1rem 0;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 43, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav-menu {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 960px) {
-  /* line 43, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 45, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav-menu {
     position: fixed;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
     transform: scaleY(1);
     padding: 1rem 0;
     text-align: center;
   }
-  /* line 78, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+  /* line 86, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav-menu ul li {
     display: inline;
     margin: 0 2rem;
   }
 }
 
-/* line 85, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 93, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-is-active {
+  -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
   transform: scaleY(1);
 }
 
-/* line 90, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 101, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-not-active {
+  -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
   transform: scaleY(0);
+}
+
+@-webkit-keyframes menuAnimationOn {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+  30% {
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
 }
 
 @keyframes menuAnimationOn {
   0% {
+    -webkit-transform: scaleY(0);
     transform: scaleY(0);
   }
   30% {
+    -webkit-transform: scaleY(1.1);
     transform: scaleY(1.1);
   }
   100% {
+    -webkit-transform: scaleY(1);
     transform: scaleY(1);
+  }
+}
+
+@-webkit-keyframes menuAnimationOff {
+  0% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  70% {
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
   }
 }
 
 @keyframes menuAnimationOff {
   0% {
+    -webkit-transform: scaleY(1);
     transform: scaleY(1);
   }
   70% {
+    -webkit-transform: scaleY(1.1);
     transform: scaleY(1.1);
   }
   100% {
+    -webkit-transform: scaleY(0);
     transform: scaleY(0);
   }
 }

@@ -27,6 +27,8 @@
   height: 4px;
   background-color: $color-text;
   margin-bottom: $small;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
 
   @media screen and (min-width: $tablet) {
@@ -45,8 +47,12 @@
   width: $full;
   padding: $large 0;
   text-align: center;
-  transform-origin: top;
-  transform: scaleY(0);
+  -webkit-transform-origin: top;
+      -ms-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
 
   a {
     color: $color-text;
@@ -71,7 +77,9 @@
 
   @media screen and (min-width: $desktop) {
     position: fixed;
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+            transform: scaleY(1);
     padding: $medium 0;
     text-align: center;
 
@@ -83,36 +91,78 @@
 }
 
 .nav-is-active {
-  animation: menuAnimationOn .5s 1;
-  transform: scaleY(1);
+  -webkit-animation: menuAnimationOn .5s 1;
+          animation: menuAnimationOn .5s 1;
+  -webkit-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+          transform: scaleY(1);
 }
 
 .nav-not-active {
-  animation: menuAnimationOff .3s 1;
-  transform: scaleY(0);
+  -webkit-animation: menuAnimationOff .3s 1;
+          animation: menuAnimationOff .3s 1;
+  -webkit-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
+}
+
+@-webkit-keyframes menuAnimationOn {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  30% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
 }
 
 @keyframes menuAnimationOn {
   0% {
-    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
   }
   30% {
-    transform: scaleY(1.1);
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
   }
   100% {
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@-webkit-keyframes menuAnimationOff {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  70% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
   }
 }
 
 @keyframes menuAnimationOff {
   0% {
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
   70% {
-    transform: scaleY(1.1);
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
   }
   100% {
-    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
   }
 }
 
