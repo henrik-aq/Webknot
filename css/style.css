@@ -1,1 +1,65 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa");body{margin:0;padding:0}*,*::after,*::before{box-sizing:border-box}body{font-family:'Comfortaa', verdana}
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_reset.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_reset.scss */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav {
+  width: 100%;
+  background-color: #DADEDE;
+}
+
+/* line 6, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-hamburger {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* line 13, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-hamburger div {
+  position: relative;
+  height: 4px;
+  background-color: #09110E;
+}
+
+/* line 20, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-hamburger-upper {
+  top: 0;
+}
+
+/* line 24, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-hamburger-middle {
+  top: 50%;
+}
+
+/* line 28, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-hamburger-bottom {
+  bottom: 0;
+}
+
+/* line 33, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-menu ul {
+  text-align: center;
+}
+
+/* line 36, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-menu ul li {
+  list-style-type: none;
+}
+
+/* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_tags.scss */
+body {
+  font-family: 'Comfortaa', verdana;
+}
+
+/*# sourceMappingURL=../css/style.map */

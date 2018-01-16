@@ -1,0 +1,39 @@
+.nav {
+  width: $full;
+  background-color: $color-background-alt;
+}
+
+.nav-hamburger {
+  position: fixed;
+  top: $medium;
+  right: $medium;
+  width: $font-size-medium;
+  height: $font-size-medium;
+
+  div {
+    position: relative;
+    height: 4px;
+    background-color: $color-text;
+  }
+}
+
+.nav-hamburger-upper {
+  top: 0;
+}
+
+.nav-hamburger-middle {
+  top: $half;
+}
+
+.nav-hamburger-bottom {
+  bottom: 0;
+}
+
+.nav-menu {
+  ul {
+    text-align: center;
+  }
+  ul li {
+    list-style-type: none;
+  }
+}
