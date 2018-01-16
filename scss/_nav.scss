@@ -10,26 +10,18 @@
   top: $medium;
   right: $medium;
   width: $font-size-medium;
-  height: $font-size-medium;
   z-index: 10;
-
-  div {
-    position: relative;
-    height: 4px;
-    background-color: $color-text;
-    margin-bottom: $small;
-  }
 }
 
-.nav-hamburger-upper {
-
+.nav-hamburger-line {
+  height: 4px;
+  background-color: $color-text;
+  margin-bottom: $small;
+  transition: .3s ease;
 }
 
-.nav-hamburger-middle {
-
-}
-
-.nav-hamburger-bottom {
+.hamburger-is-active {
+  background-color: $color-highlight;
 }
 
 // menu
