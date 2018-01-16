@@ -1,6 +1,7 @@
 .nav {
   width: $full;
   background-color: $color-background-alt;
+  padding: $large;
 }
 
 .nav-hamburger {
@@ -14,26 +15,28 @@
     position: relative;
     height: 4px;
     background-color: $color-text;
+    margin-bottom: $small;
   }
 }
 
 .nav-hamburger-upper {
-  top: 0;
+
 }
 
 .nav-hamburger-middle {
-  top: $half;
+
 }
 
 .nav-hamburger-bottom {
-  bottom: 0;
 }
 
 .nav-menu {
-  ul {
-    text-align: center;
+  background: red;
+  text-align: center;
+  a {
+    color: $color-text;
   }
   ul li {
-    list-style-type: none;
+    margin: $small 0;
   }
 }

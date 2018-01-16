@@ -10,13 +10,20 @@ body {
   box-sizing: border-box;
 }
 
+/* line 10, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_reset.scss */
+a, li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav {
   width: 100%;
   background-color: #DADEDE;
+  padding: 2rem;
 }
 
-/* line 6, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 7, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-hamburger {
   position: fixed;
   top: 1rem;
@@ -25,36 +32,28 @@ body {
   height: 2rem;
 }
 
-/* line 13, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+/* line 14, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-hamburger div {
   position: relative;
   height: 4px;
   background-color: #09110E;
-}
-
-/* line 20, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-hamburger-upper {
-  top: 0;
-}
-
-/* line 24, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-hamburger-middle {
-  top: 50%;
-}
-
-/* line 28, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-hamburger-bottom {
-  bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 /* line 33, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
-.nav-menu ul {
+.nav-menu {
+  background: red;
   text-align: center;
 }
 
 /* line 36, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
+.nav-menu a {
+  color: #09110E;
+}
+
+/* line 39, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav-menu ul li {
-  list-style-type: none;
+  margin: 0.5rem 0;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_tags.scss */
