@@ -4,7 +4,7 @@
     grid-gap: 2rem;
     align-items: center;
 
-    @media screen and(min-width: $desktop) {
+    @media screen and (min-width: $desktop) {
       padding: 0 10rem 0 10rem;
     }
 }
@@ -26,7 +26,4 @@
 .reviews__card:nth-of-type(1),
 .reviews__card:last-of-type {
   grid-column-start: span 3;
-}
-.reviews__card:nth-of-type(1), .reviews__card:last-of-type {
-    grid-column-start: span 3;
 }

@@ -1,7 +1,6 @@
 .header {
+  display: block;
   height: 50vh;
-  @media screen and (min-width: $desktop) {
-  }
 }
 
 .header__container {
@@ -12,5 +11,9 @@
     display: block;
     width: 80%;
     margin: 0 auto;
+
+    @media screen and (min-width: $desktop) {
+      width: 60%;
+    }
   }
 }
