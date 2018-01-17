@@ -93,21 +93,29 @@ a, li {
 
 /* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu ul li {
-  margin: 1rem 0;
+  display: inline;
 }
 
-/* line 66, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+@supports (display: flex) {
+  /* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  .nav__menu ul li {
+    display: list-item;
+    margin: 1rem 0;
+  }
+}
+
+/* line 70, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a {
   display: inline-block;
   color: #09110E;
 }
 
-/* line 70, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 74, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a:hover {
   color: #D80303;
 }
 
-/* line 74, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 78, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a::after {
   content: "";
   display: block;
@@ -122,7 +130,7 @@ a, li {
   transform: scaleX(0);
 }
 
-/* line 88, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 92, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
@@ -146,14 +154,14 @@ a, li {
     padding: 1rem 0;
     text-align: center;
   }
-  /* line 107, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 111, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu ul li {
     display: inline;
     margin: 0 2rem;
   }
 }
 
-/* line 114, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 118, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
@@ -162,7 +170,7 @@ a, li {
   transform: scaleY(1);
 }
 
-/* line 122, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 126, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;

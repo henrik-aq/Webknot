@@ -59,7 +59,11 @@
     margin: 0;
 
     li {
-      margin: $medium 0;
+      display: inline;
+      @supports (display: flex) {
+        display: list-item;
+        margin: $medium 0;
+      }
     }
   }
 
