@@ -21,9 +21,10 @@ a, li {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
-/* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__hamburger {
   position: absolute;
   top: 1rem;
@@ -33,7 +34,7 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__hamburger {
     top: 2rem;
     right: 2rem;
@@ -42,13 +43,13 @@ a, li {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__hamburger {
     display: none;
   }
 }
 
-/* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 27, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__hamburger-line {
   height: 4px;
   background-color: #09110E;
@@ -59,19 +60,19 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 27, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__hamburger-line {
     height: 6px;
     margin-bottom: 0.5rem;
   }
 }
 
-/* line 40, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 41, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .hamburger-is-active {
   background-color: #D80303;
 }
 
-/* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 46, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu {
   background-color: #DADEDE;
   width: 100%;
@@ -85,37 +86,37 @@ a, li {
   transform: scaleY(0);
 }
 
-/* line 57, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 58, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 62, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu ul li {
   display: inline;
 }
 
 @supports (display: flex) {
-  /* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 62, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu ul li {
     display: list-item;
     margin: 1rem 0;
   }
 }
 
-/* line 70, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 71, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a {
   display: inline-block;
   color: #09110E;
 }
 
-/* line 74, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 75, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a:hover {
   color: #D80303;
 }
 
-/* line 78, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 79, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a::after {
   content: "";
   display: block;
@@ -130,7 +131,7 @@ a, li {
   transform: scaleX(0);
 }
 
-/* line 92, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 93, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
@@ -138,14 +139,14 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 46, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 960px) {
-  /* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 46, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu {
     position: fixed;
     -webkit-transform: scaleY(1);
@@ -154,14 +155,14 @@ a, li {
     padding: 1rem 0;
     text-align: center;
   }
-  /* line 111, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+  /* line 112, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu ul li {
     display: inline;
     margin: 0 2rem;
   }
 }
 
-/* line 118, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 119, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
@@ -170,7 +171,7 @@ a, li {
   transform: scaleY(1);
 }
 
-/* line 126, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+/* line 127, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;
@@ -244,30 +245,12 @@ a, li {
   height: 50vh;
 }
 
-@media screen and (min-width: 960px) {
-  /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
-  .header {
-    height: 80vh;
-  }
-}
-
 /* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
-.header__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100%;
-  margin: 0 2rem;
+.header__container img {
+  position: relative;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
