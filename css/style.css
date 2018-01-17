@@ -1,29 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
-/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_reset.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 6, E:/Skola/Nackademin Projekt/Webknot/scss/_reset.scss */
 *, *::after, *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-/* line 10, E:/Skola/Nackademin Projekt/Webknot/scss/_reset.scss */
 a, li {
   text-decoration: none;
   list-style-type: none;
 }
 
-/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__hamburger {
   position: absolute;
   top: 1rem;
@@ -33,7 +29,6 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__hamburger {
     top: 2rem;
     right: 2rem;
@@ -42,13 +37,11 @@ a, li {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 8, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__hamburger {
     display: none;
   }
 }
 
-/* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__hamburger-line {
   height: 4px;
   background-color: #09110E;
@@ -59,19 +52,16 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__hamburger-line {
     height: 6px;
     margin-bottom: 0.5rem;
   }
 }
 
-/* line 40, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .hamburger-is-active {
   background-color: #D80303;
 }
 
-/* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu {
   background-color: #DADEDE;
   width: 100%;
@@ -85,37 +75,31 @@ a, li {
   transform: scaleY(0);
 }
 
-/* line 57, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu ul li {
   display: inline;
 }
 
-@supports (display: flex) {
-  /* line 61, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
+@supports ((display: -webkit-box) or (display: flex)) {
   .nav__menu ul li {
     display: list-item;
     margin: 1rem 0;
   }
 }
 
-/* line 70, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a {
   display: inline-block;
   color: #09110E;
 }
 
-/* line 74, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a:hover {
   color: #D80303;
 }
 
-/* line 78, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a::after {
   content: "";
   display: block;
@@ -130,7 +114,6 @@ a, li {
   transform: scaleX(0);
 }
 
-/* line 92, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav__menu a:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
@@ -138,14 +121,12 @@ a, li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 960px) {
-  /* line 45, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu {
     position: fixed;
     -webkit-transform: scaleY(1);
@@ -154,14 +135,12 @@ a, li {
     padding: 1rem 0;
     text-align: center;
   }
-  /* line 111, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
   .nav__menu ul li {
     display: inline;
     margin: 0 2rem;
   }
 }
 
-/* line 118, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
@@ -170,7 +149,6 @@ a, li {
   transform: scaleY(1);
 }
 
-/* line 126, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
 .nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;
@@ -239,19 +217,16 @@ a, li {
   }
 }
 
-/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header {
   height: 50vh;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
   .header {
     height: 80vh;
   }
 }
 
-/* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,44 +245,37 @@ a, li {
   margin: 0 2rem;
 }
 
-/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
 .reviews__container {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
   justify-items: center;
   grid-gap: 2rem;
   padding: 0 10rem 0 10rem;
 }
 
-/* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
 .reviews__overall-scores {
   text-align: center;
   padding: 2rem;
 }
 
-/* line 13, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
 .reviews__card__text {
   font-style: italic;
   color: gray;
   font-size: 1.5rem;
 }
 
-/* line 18, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
-.reviews__card:nth-of-type(1), .reviews__card:last-of-type {
+.reviews__card:nth-of-type(1),
+.reviews__card:last-of-type {
   grid-column-start: span 3;
 }
 
-/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_tags.scss */
 body {
   font-family: 'Comfortaa', verdana;
   background-color: #f2f4f3;
   overflow-x: hidden;
 }
 
-/* line 15, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
 section > h2 {
   text-align: center;
   font-size: 2.5rem;
 }
-
-/*# sourceMappingURL=../css/style.map */

@@ -1,9 +1,9 @@
 .reviews__container {
-    display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    justify-items: center;
-    grid-gap: 2rem;
-    padding: 0 10rem 0 10rem;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 2rem;
+  padding: 0 10rem 0 10rem;
 }
 
 .reviews__overall-scores {
@@ -11,10 +11,11 @@
   padding: 2rem;
 }
 .reviews__card__text {
-    font-style: italic;
-    color: $color-citation;
-    font-size: 1.5rem;
+  font-style: italic;
+  color: $color-citation;
+  font-size: 1.5rem;
 }
-.reviews__card:nth-of-type(1), .reviews__card:last-of-type {
-    grid-column-start: span 3;
+.reviews__card:nth-of-type(1),
+.reviews__card:last-of-type {
+  grid-column-start: span 3;
 }
