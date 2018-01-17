@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+.css/
+=======
 .sass-cache/
 /css
 css/
+>>>>>>> 9231a62435a4d3c1cc0036a228873cc3ac7773f5
 
 # Compiled source #
 ###################
