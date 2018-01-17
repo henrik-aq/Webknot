@@ -1,0 +1,16 @@
+.reviews-container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+
+.reviews__overall-scores {
+  text-align: center;
+  padding: 2rem;
+}
+.reviews__card__text {
+    font-style: italic;
+    color: $color-citation;
+    font-size: 1.5rem;
+}
