@@ -1,4 +1,7 @@
-css
+.sass-cache/
+css/
+*.css.map
+*.css
 
 # Compiled source #
 ###################

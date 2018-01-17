@@ -243,6 +243,7 @@ a, li {
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 2rem;
+  padding: 0 10rem 0 10rem;
 }
 
 .reviews__overall-scores {
