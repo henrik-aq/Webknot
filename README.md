@@ -6,7 +6,7 @@ We'll work using a variant of Kanban. Progressive enhancement methodology is app
 We will work with Mobile First in mind.
 
 
-====================================================================================
+---
 
 ## Mission
 We’re Webknot — your digital funeral parlor. We take care of your online presence by cleaning up embarrassing behaviors on social media, wiping your search history, and immortalizing you with a bespoke website in your honor built specifically to your standards. With Webknot, dying is no longer an issue.
