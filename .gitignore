@@ -1,4 +1,7 @@
+.sass-cache/
 css/
+*.css.map
+*.css
 
 # Compiled source #
 ###################
@@ -37,3 +40,4 @@ css/
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.css
