@@ -10,3 +10,9 @@
 @import "reviews";
 @import "footer";
 @import "tags";
+
+// General section styling goes here! 
+section > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
