@@ -1,17 +1,17 @@
 .reviews__container {
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     grid-gap: 2rem;
     align-items: center;
-
+    justify-items: center;
     @media screen and (min-width: $desktop) {
-      padding: 0 10rem 0 10rem;
+        padding: 0 20rem 0 20rem;
     }
 }
 
 .reviews__overall-scores {
-  text-align: center;
-  padding: 2rem;
+    text-align: center;
+    padding: 2rem;
 }
 .reviews__card {
     border-radius: 55px;
