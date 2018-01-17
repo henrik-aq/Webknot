@@ -1,8 +1,8 @@
 .reviews__container {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    justify-items: center;
     grid-gap: 2rem;
+    align-items: center;
 
     @media screen and(min-width: $desktop) {
       padding: 0 10rem 0 10rem;
@@ -12,6 +12,11 @@
 .reviews__overall-scores {
   text-align: center;
   padding: 2rem;
+}
+.reviews__card {
+    border-radius: 55px;
+    background-color: darken($color-background, 5);
+    padding: 2rem;
 }
 .reviews__card__text {
   font-style: italic;
