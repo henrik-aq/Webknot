@@ -1,11 +1,4 @@
 .reviews__container {
-<<<<<<< HEAD
-  display: grid;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  justify-items: center;
-  grid-gap: 2rem;
-  padding: 0 10rem 0 10rem;
-=======
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
     justify-items: center;
@@ -14,7 +7,6 @@
     @media screen and(min-width: $desktop) {
       padding: 0 10rem 0 10rem;
     }
->>>>>>> b127aa6fe6835d457a82c61232860783c23fec06
 }
 
 .reviews__overall-scores {
@@ -30,9 +22,6 @@
 .reviews__card:last-of-type {
   grid-column-start: span 3;
 }
-<<<<<<< HEAD
-=======
 .reviews__card:nth-of-type(1), .reviews__card:last-of-type {
     grid-column-start: span 3;
 }
->>>>>>> b127aa6fe6835d457a82c61232860783c23fec06
