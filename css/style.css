@@ -264,23 +264,29 @@ a, li {
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 2rem;
-  padding: 0 10rem 0 10rem;
 }
 
-/* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
+@media screen and (min-width: 960px) {
+  /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
+  .reviews__container {
+    padding: 0 10rem 0 10rem;
+  }
+}
+
+/* line 12, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
 .reviews__overall-scores {
   text-align: center;
   padding: 2rem;
 }
 
-/* line 13, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
+/* line 16, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
 .reviews__card__text {
   font-style: italic;
   color: gray;
   font-size: 1.5rem;
 }
 
-/* line 18, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
+/* line 21, E:/Skola/Nackademin Projekt/Webknot/scss/_reviews.scss */
 .reviews__card:nth-of-type(1), .reviews__card:last-of-type {
   grid-column-start: span 3;
 }
