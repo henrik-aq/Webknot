@@ -5,7 +5,7 @@
 }
 
 // hamburger
-.nav-hamburger {
+.nav__hamburger {
   position: absolute;
   top: $medium;
   right: $medium;
@@ -23,7 +23,7 @@
   }
 }
 
-.nav-hamburger-line {
+.nav__hamburger__line {
   height: 4px;
   background-color: $color-text;
   margin-bottom: $small;
@@ -37,12 +37,12 @@
   }
 }
 
-.hamburger-is-active {
+.hamburger__is__active {
   background-color: $color-highlight;
 }
 
 // menu
-.nav-menu {
+.nav__menu {
   background-color: $color-background-alt;
   width: $full;
   padding: $large 0;
@@ -111,7 +111,7 @@
   }
 }
 
-.nav-is-active {
+.nav__is__active {
   -webkit-animation: menuAnimationOn .5s 1;
           animation: menuAnimationOn .5s 1;
   -webkit-transform: scaleY(1);
@@ -119,7 +119,7 @@
           transform: scaleY(1);
 }
 
-.nav-not-active {
+.nav__not__active {
   -webkit-animation: menuAnimationOff .3s 1;
           animation: menuAnimationOff .3s 1;
   -webkit-transform: scaleY(0);
