@@ -245,9 +245,14 @@ a, li {
   height: 50vh;
 }
 
-/* line 9, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
-.header__container img {
+/* line 7, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
+.header__container {
   position: relative;
+  padding-top: 2rem;
+}
+
+/* line 11, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
+.header__container img {
   display: block;
   width: 80%;
   margin: 0 auto;
