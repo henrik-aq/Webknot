@@ -240,7 +240,7 @@ a, li {
 
 .reviews-container {
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 2rem;
 }
@@ -254,6 +254,10 @@ a, li {
   font-style: italic;
   color: gray;
   font-size: 1.5rem;
+}
+
+.reviews__card:nth-of-type(1), .reviews__card:last-of-type {
+  grid-column-start: span 3;
 }
 
 body {
