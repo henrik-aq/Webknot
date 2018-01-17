@@ -49,7 +49,7 @@ a, li {
 }
 
 /* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
-.nav__hamburger__line {
+.nav__hamburger-line {
   height: 4px;
   background-color: #09110E;
   margin-bottom: 0.5rem;
@@ -60,14 +60,14 @@ a, li {
 
 @media screen and (min-width: 768px) {
   /* line 26, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
-  .nav__hamburger__line {
+  .nav__hamburger-line {
     height: 6px;
     margin-bottom: 0.5rem;
   }
 }
 
 /* line 40, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
-.hamburger__is__active {
+.hamburger-is-active {
   background-color: #D80303;
 }
 
@@ -154,7 +154,7 @@ a, li {
 }
 
 /* line 114, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
-.nav__is__active {
+.nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
   animation: menuAnimationOn .5s 1;
   -webkit-transform: scaleY(1);
@@ -163,7 +163,7 @@ a, li {
 }
 
 /* line 122, E:/Skola/Nackademin Projekt/Webknot/scss/_nav.scss */
-.nav__not__active {
+.nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
   animation: menuAnimationOff .3s 1;
   -webkit-transform: scaleY(0);

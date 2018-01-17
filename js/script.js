@@ -1,7 +1,7 @@
-var navHamburger      = document.getElementById("nav-hamburger");
-var navHamburgerLines = document.querySelectorAll("#nav-hamburger div");
-var navMenu           = document.getElementById("nav-menu");
-var navMenuAnchor     = document.querySelectorAll("#nav-menu a");
+var navHamburger      = document.getElementById("nav__hamburger");
+var navHamburgerLines = document.querySelectorAll("#nav__hamburger div");
+var navMenu           = document.getElementById("nav__menu");
+var navMenuAnchor     = document.querySelectorAll("#nav__menu a");
 var viewportWidth;
 
 // constantly update the viewport width

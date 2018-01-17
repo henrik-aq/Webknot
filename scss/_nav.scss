@@ -23,7 +23,7 @@
   }
 }
 
-.nav__hamburger__line {
+.nav__hamburger-line {
   height: 4px;
   background-color: $color-text;
   margin-bottom: $small;
@@ -37,7 +37,7 @@
   }
 }
 
-.hamburger__is__active {
+.hamburger-is-active {
   background-color: $color-highlight;
 }
 
@@ -111,7 +111,7 @@
   }
 }
 
-.nav__is__active {
+.nav-is-active {
   -webkit-animation: menuAnimationOn .5s 1;
           animation: menuAnimationOn .5s 1;
   -webkit-transform: scaleY(1);
@@ -119,7 +119,7 @@
           transform: scaleY(1);
 }
 
-.nav__not__active {
+.nav-not-active {
   -webkit-animation: menuAnimationOff .3s 1;
           animation: menuAnimationOff .3s 1;
   -webkit-transform: scaleY(0);
