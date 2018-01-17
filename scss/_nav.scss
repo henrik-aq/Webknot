@@ -55,8 +55,6 @@
       -ms-transform: scaleY(0);
           transform: scaleY(0);
 
-<<<<<<< HEAD
-=======
   ul {
     padding: 0;
     margin: 0;
@@ -70,22 +68,33 @@
     }
   }
 
->>>>>>> 9231a62435a4d3c1cc0036a228873cc3ac7773f5
   a {
+    display: inline-block;
     color: $color-text;
-  }
 
-  a:hover {
-    color: $color-highlight
-  }
+    &:hover {
+      color: $color-highlight;
+    }
 
-  ul {
-    padding: 0;
-    margin: 0;
-  }
+    &::after {
+      content: "";
+      display: block;
+      bottom: 0;
+      height: 2px;
+      background-color: $color-highlight;
+      -webkit-transition: .2s ease;
+      -o-transition: .2s ease;
+      transition: .2s ease;
+      -webkit-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+              transform: scaleX(0);
+    }
 
-  ul li {
-    margin: $medium 0;
+    &:hover::after {
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
+    }
   }
 
   @media screen and (min-width: $tablet) {
@@ -182,7 +191,3 @@
             transform: scaleY(0);
   }
 }
-
-/*
-  TABLET
-*/

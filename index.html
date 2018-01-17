@@ -13,29 +13,38 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <!--Navigation Menu -->
-    <nav class="nav">
-        <div id="nav-hamburger" class="nav-hamburger">
-            <div class="nav-hamburger-line"></div>
-            <div class="nav-hamburger-line"></div>
-            <div class="nav-hamburger-line"></div>
+      <nav class="nav">
+        <div id="nav__hamburger" class="nav__hamburger">
+          <div class="nav__hamburger-line"></div>
+          <div class="nav__hamburger-line"></div>
+          <div class="nav__hamburger-line"></div>
         </div>
-        <div id="nav-menu" class="nav-menu">
-            <ul>
-                <li><a href="#header">Top</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#contact">Contact us</a></li>
-            </ul>
+        <div id="nav__menu" class="nav__menu">
+          <ul>
+            <li>
+              <a href="#header">Top</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#reviews">Reviews</a>
+            </li>
+            <li>
+              <a href="#footer">Contact us</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <header id="header" class="header">
-        <div class="header-container">
-            <img src="images/logo-big.svg" alt="Webknot logo">
+      </nav>
+      <header id="header" class="header">
+        <div class="header__container">
+          <img src="images/logo-big.png" alt="webknot logo">
         </div>
-    </header>
+      </header>
     <!--End of Navigation Menu -->
 
 
@@ -89,9 +98,34 @@
 
     <!--Reviews -->
     <section id="reviews" class="reviews">
-        <div class="reviews-container">
-
+      <h2>Reviews</h2>
+      <div class="reviews__overall-scores">
+        <img src="icons/stars.svg" alt="">
+        <h3>Here's what our customers have to say</h3>
+      </div>
+      <div class="reviews__container">
+        <div class="reviews__card">
+          <p class="reviews__card__text">"Before I discovered Webknot, I used to worry about my search history"</p>
+          <p class="reviews__card__name">Laban, 61</p>
         </div>
+        <div class="reviews__card">
+          <p class="reviews__card__text">"Webknot has really streamlined my work"</p>
+          <p class="reviews__card__name">Satan</p>
+        </div>
+        <div class="reviews__card">
+          <p class="reviews__card__text">"I can't wait to perish!"</p>
+          <p class="reviews__card__name">Sergei, 25</p>
+        </div>
+        <div class="reviews__card">
+          <p class="reviews__card__text">"Very easy to use</p>
+          <p class="reviews__card__name">Waylon R, 73</p>
+        </div>
+        <div class="reviews__card">
+          <p class="reviews__card__text">"I can finally surf the web freely knowing Webknot's got my back"</p>
+          <p class="reviews__card__name">Krueger, 34</p>
+        </div>
+
+      </div>
     </section>
     <!--End of Reviews -->
 
@@ -100,92 +134,12 @@
 
         </div>
     </footer>
-    <script src="js/script.js">
-    </script>
-=======
-  <nav class="nav">
-    <div id="nav__hamburger" class="nav__hamburger">
-      <div class="nav__hamburger-line"></div>
-      <div class="nav__hamburger-line"></div>
-      <div class="nav__hamburger-line"></div>
-    </div>
-    <div id="nav__menu" class="nav__menu">
-      <ul>
-        <li>
-          <a href="#header">Top</a>
-        </li>
-        <li>
-          <a href="#about">About Us</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#reviews">Reviews</a>
-        </li>
-        <li>
-          <a href="#footer">Contact us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <header id="header" class="header">
-    <div class="header__container">
-      <img src="images/logo-big.png" alt="webknot logo">
-    </div>
-  </header>
-  <section id="about" class="about">
-    <div class="about__container">
-
-    </div>
-  </section>
-  <section id="services" class="services">
-    <div class="services__container">
-
-    </div>
-  </section>
-  <section id="reviews" class="reviews">
-    <h2>Reviews</h2>
-    <div class="reviews__overall-scores">
-      <img src="icons/stars.svg" alt="">
-      <h3>Here's what our customers have to say</h3>
-    </div>
-    <div class="reviews__container">
-      <div class="reviews__card">
-        <p class="reviews__card__text">"Before I discovered Webknot, I used to worry about my search history"</p>
-        <p class="reviews__card__name">Laban, 61</p>
-      </div>
-      <div class="reviews__card">
-        <p class="reviews__card__text">"Webknot has really streamlined my work"</p>
-        <p class="reviews__card__name">Satan</p>
-      </div>
-      <div class="reviews__card">
-        <p class="reviews__card__text">"I can't wait to perish!"</p>
-        <p class="reviews__card__name">Sergei, 25</p>
-      </div>
-      <div class="reviews__card">
-        <p class="reviews__card__text">"Very easy to use</p>
-        <p class="reviews__card__name">Waylon R, 73</p>
-      </div>
-      <div class="reviews__card">
-        <p class="reviews__card__text">"I can finally surf the web freely knowing Webknot's got my back"</p>
-        <p class="reviews__card__name">Krueger, 34</p>
-      </div>
-
-    </div>
-  </section>
-  <footer id="footer" class="footer">
-    <div class="footer__container">
-
-    </div>
-  </footer>
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous">
   </script>
   <script src="js/script.js"></script>
->>>>>>> 9231a62435a4d3c1cc0036a228873cc3ac7773f5
 </body>
 
 </html>
