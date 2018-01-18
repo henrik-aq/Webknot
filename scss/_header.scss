@@ -1,19 +1,15 @@
 .header {
   display: block;
+  width: 100%;
+  padding: $large*4 0;
 }
 
 .header__container {
   position: relative;
-  padding-top: $large;
-  overflow: hidden;
 
   img {
     display: block;
     margin: 0 auto;
-    width: 100%;
-
-    @media screen and (min-width: $desktop) {
-      width: 60%;
-    }
+    width: 80%;
   }
 }

@@ -246,27 +246,20 @@ ul {
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header {
   display: block;
+  width: 100%;
+  padding: 8em 0;
 }
 
-/* line 5, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
+/* line 7, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header__container {
   position: relative;
-  padding-top: 2em;
-  overflow: hidden;
 }
 
 /* line 10, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
 .header__container img {
   display: block;
   margin: 0 auto;
-  width: 100%;
-}
-
-@media screen and (min-width: 960px) {
-  /* line 10, E:/Skola/Nackademin Projekt/Webknot/scss/_header.scss */
-  .header__container img {
-    width: 60%;
-  }
+  width: 80%;
 }
 
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_about.scss */
