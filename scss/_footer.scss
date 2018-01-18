@@ -9,16 +9,27 @@
   padding-top: $large;
 }
 
-.footer__social-media__button {
-  width: $large;
+.footer__adress--text {
+    font-size: $font-size-small;
+    @media screen and (min-width: $tablet) {
+      font-size: $font-size-medium;
+    }
 }
 
-.footer__arrow {
+.footer__social-media__button {
+  width: $large;
+
+  @media screen and (min-width: $tablet) {
+    width: $font-size-extra-large;
+  }
 }
 
 .footer__arrow--text {
   text-transform: uppercase;
   font-weight: normal;
+  @media screen and (min-width: $tablet) {
+    font-size: $font-size-medium;
+  }
 }
 
 .footer__arrow--image {

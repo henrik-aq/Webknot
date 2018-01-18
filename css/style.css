@@ -383,17 +383,43 @@ services-img {
 }
 
 /* line 12, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer__adress--text {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 12, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  .footer__adress--text {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 19, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__social-media__button {
   width: 2rem;
 }
 
-/* line 19, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+@media screen and (min-width: 768px) {
+  /* line 19, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  .footer__social-media__button {
+    width: 3rem;
+  }
+}
+
+/* line 27, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--text {
   text-transform: uppercase;
   font-weight: normal;
 }
 
-/* line 24, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+@media screen and (min-width: 768px) {
+  /* line 27, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  .footer__arrow--text {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 35, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--image {
   width: 100%;
   -webkit-transition: 1s ease;
@@ -404,7 +430,7 @@ services-img {
   transform-origin: bottom;
 }
 
-/* line 33, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 44, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--image:hover {
   -webkit-animation: bouncyArrow 2s infinite;
   animation: bouncyArrow 2s infinite;
