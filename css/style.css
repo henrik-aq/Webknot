@@ -269,6 +269,26 @@ ul {
   }
 }
 
+/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_about.scss */
+.about__container {
+  background-color: #DADEDE;
+  padding: 2rem;
+}
+
+/* line 6, E:/Skola/Nackademin Projekt/Webknot/scss/_about.scss */
+.about__text {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #09110E;
+  font-size: 1.5rem;
+}
+
+/* line 13, E:/Skola/Nackademin Projekt/Webknot/scss/_about.scss */
+.about__text__big {
+  color: #D80303;
+  font-size: 2rem;
+}
+
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_services.scss */
 .services {
   /* Equal to skewX(10deg) */
@@ -335,6 +355,42 @@ services-img {
 .reviews__card:nth-of-type(1),
 .reviews__card:last-of-type {
   grid-column-start: span 3;
+}
+
+/* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer {
+  background-color: #09110E;
+  color: #f2f4f3;
+}
+
+/* line 6, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+/* line 11, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer__social-media__button {
+  width: 2rem;
+}
+
+/* line 15, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer__arrow--text {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
 }
 
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_tags.scss */

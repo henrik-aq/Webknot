@@ -1,0 +1,19 @@
+.footer {
+  background-color: $color-text;
+  color: $color-background;
+}
+
+.footer__container {
+  @include flex(column, center, center);
+  padding: $large 0;
+}
+
+.footer__social-media__button {
+  width: $large;
+}
+
+.footer__arrow--text {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+}
