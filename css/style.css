@@ -378,19 +378,66 @@ services-img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 2rem 0;
+  width: 100%;
+  padding-top: 2rem;
 }
 
-/* line 11, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 12, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__social-media__button {
   width: 2rem;
 }
 
-/* line 15, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 19, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--text {
   text-transform: uppercase;
   font-weight: normal;
-  text-align: center;
+}
+
+/* line 24, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer__arrow--image {
+  width: 100%;
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+  -webkit-transform-origin: bottom;
+  -ms-transform-origin: bottom;
+  transform-origin: bottom;
+}
+
+/* line 33, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+.footer__arrow--image:hover {
+  -webkit-animation: bouncyArrow 2s infinite;
+  animation: bouncyArrow 2s infinite;
+}
+
+@-webkit-keyframes bouncyArrow {
+  0% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+@keyframes bouncyArrow {
+  0% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
 }
 
 /* line 1, E:/Skola/Nackademin Projekt/Webknot/scss/_tags.scss */
