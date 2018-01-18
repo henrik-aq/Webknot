@@ -1,3 +1,5 @@
+
+
 // Colors
 $color-background: #f2f4f3;
 $color-background-alt: #DADEDE;
@@ -5,6 +7,20 @@ $color-highlight: #D80303;
 $color-text: #09110E;
 $color-citation: gray;
 
+
+// font sizing
+$font-size-small: 1em;
+$font-size-medium: 1.5em;
+$font-size-large: 2em;
+$font-size-extra-large: 3em;
+
+// paddings & margins
+$small: .5em;
+$medium: 1em;
+$large: 2em;
+$extra-large: 4em;
+
+@supports (display: flex) {
 // font sizing
 $font-size-small: 1rem;
 $font-size-medium: 1.5rem;
@@ -16,6 +32,7 @@ $small: .5rem;
 $medium: 1rem;
 $large: 2rem;
 $extra-large: 4rem;
+}
 
 // breakpoints
 $tablet: 768px;

@@ -22,7 +22,11 @@
 }
 
 .footer__social-media__button {
-  width: $large;
+  width: 3em;
+
+  @supports (display: flex) {
+    width: $large;
+  }
 
   @media screen and (min-width: $tablet) {
     width: $font-size-extra-large;
