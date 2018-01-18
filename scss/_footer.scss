@@ -5,15 +5,20 @@
 
 .footer__container {
   @include flex(column, center, center);
-  width: 100%;
+  text-align: center;
   padding-top: $large;
 }
 
 .footer__adress--text {
-    font-size: $font-size-small;
-    @media screen and (min-width: $tablet) {
-      font-size: $font-size-medium;
-    }
+  font-size: $font-size-small;
+
+  @supports (display: flex) {
+    text-align: left;
+  }
+
+  @media screen and (min-width: $tablet) {
+    font-size: $font-size-medium;
+  }
 }
 
 .footer__social-media__button {
@@ -33,7 +38,6 @@
 }
 
 .footer__arrow--image {
-  width: 100%;
   -webkit-transition: 1s ease;
   -o-transition: 1s ease;
   transition: 1s ease;
@@ -44,6 +48,10 @@
   &:hover {
     -webkit-animation: bouncyArrow 2s infinite;
             animation: bouncyArrow 2s infinite;
+  }
+
+  @supports (display: flex) {
+    width: 100%;
   }
 }
 

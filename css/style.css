@@ -378,13 +378,20 @@ services-img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
+  text-align: center;
   padding-top: 2rem;
 }
 
 /* line 12, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__adress--text {
   font-size: 1rem;
+}
+
+@supports (display: flex) {
+  /* line 12, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  .footer__adress--text {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -394,34 +401,33 @@ services-img {
   }
 }
 
-/* line 19, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 24, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__social-media__button {
   width: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 19, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  /* line 24, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
   .footer__social-media__button {
     width: 3rem;
   }
 }
 
-/* line 27, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 32, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--text {
   text-transform: uppercase;
   font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 27, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  /* line 32, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
   .footer__arrow--text {
     font-size: 1.5rem;
   }
 }
 
-/* line 35, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 40, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--image {
-  width: 100%;
   -webkit-transition: 1s ease;
   -o-transition: 1s ease;
   transition: 1s ease;
@@ -430,10 +436,17 @@ services-img {
   transform-origin: bottom;
 }
 
-/* line 44, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+/* line 48, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
 .footer__arrow--image:hover {
   -webkit-animation: bouncyArrow 2s infinite;
   animation: bouncyArrow 2s infinite;
+}
+
+@supports (display: flex) {
+  /* line 40, E:/Skola/Nackademin Projekt/Webknot/scss/_footer.scss */
+  .footer__arrow--image {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes bouncyArrow {
