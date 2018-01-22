@@ -1,0 +1,90 @@
+.footer {
+  background-color: $color-text;
+  color: $color-background;
+}
+
+.footer__container {
+  @include flex(column, center, center);
+  text-align: center;
+  padding-top: $large;
+}
+
+.footer__adress--text {
+  font-size: $font-size-small;
+
+  @supports (display: flex) {
+    text-align: left;
+  }
+
+  @media screen and (min-width: $tablet) {
+    font-size: $font-size-medium;
+  }
+}
+
+.footer__social-media__button {
+  width: 3em;
+
+  @supports (display: flex) {
+    width: $large;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $font-size-extra-large;
+  }
+}
+
+.footer__arrow--text {
+  text-transform: uppercase;
+  font-weight: normal;
+  @media screen and (min-width: $tablet) {
+    font-size: $font-size-medium;
+  }
+}
+
+.footer__arrow--image {
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+  -webkit-transform-origin: bottom;
+      -ms-transform-origin: bottom;
+          transform-origin: bottom;
+
+  &:hover {
+    -webkit-animation: bouncyArrow 2s infinite;
+            animation: bouncyArrow 2s infinite;
+  }
+
+  @supports (display: flex) {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes bouncyArrow {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes bouncyArrow {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}

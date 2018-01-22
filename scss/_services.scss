@@ -1,0 +1,22 @@
+.services {
+    //transform: skew(-3deg, -3deg) scale(1.2) rotate(4deg);
+    /* Equal to skewX(10deg) */
+    background-color: $color-background-alt;
+    padding: $small;
+    margin: $small;
+    font-size: $font-size-small;
+}
+
+h3,
+h4 {
+    text-align: center;
+}
+
+services-img {
+    width: 100%;
+    height: auto;
+}
+
+.services-list {
+    list-style-type: disc;
+}

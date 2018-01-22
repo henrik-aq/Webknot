@@ -1,0 +1,16 @@
+.about__container {
+    background-color: $color-background-alt;
+    padding: $large;
+}
+
+.about__text {
+    text-align: justify;
+    text-justify: inter-word;
+    color: $color-text;
+    font-size: $font-size-medium;
+}
+
+.about__text__big {
+    color: $color-highlight;
+    font-size: $font-size-large;
+}
