@@ -41,3 +41,4 @@ ehthumbs.db
 Thumbs.db
 *.css
 *.map
+.DS_Store

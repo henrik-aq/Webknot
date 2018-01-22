@@ -1,18 +1,10 @@
 # Webknot
 
-## Work method
+## Working methods
 We'll work using a variant of Kanban. Progressive enhancement methodology is applied to ensure we deliver the best possible experience to all visitors of our website.
 
-<<<<<<< HEAD
-We will work with Mobile First in mind.
-
-
-====================================================================================
-
-=======
 We will work with mobile first in mind and we've structured our code using BEM naming methodology 
-===
->>>>>>> parent of afe36ed... removed bad formatting from readme
+
 ## Mission
 We’re Webknot — your digital funeral parlor. We take care of your online presence by cleaning up embarrassing behaviors on social media, wiping your search history, and immortalizing you with a bespoke website in your honor built specifically to your standards. With Webknot, dying is no longer an issue.
 
@@ -26,16 +18,12 @@ We offer three distinct packages to suit your specific needs. We recommend that 
 * Custom personal memorial site
 * Memorial fund for donations
 
-
-
 ### Tier 2: Perennial
 * Everything from tier 1
 * Heroic exaggerations of achievements on LinkedIn (where possible)
 * Friendship grooming by careful evaluation and rejection of unwanted Facebook connections
 * AI simulation of your behavior with information gathered from your profile, using machine learning to reply to posts (for 2 years)
 * Personalized .deceased domain for memorial site
-
-
 ### Tier 3: Immortal
 * Everything from tier 1 and 2
 * Permalife™ 3D printing filament from ashes enable relatives to construct objects with familiarity
