@@ -3,14 +3,8 @@ body {
     padding: 0;
 }
 
-*,
-*::after,
-*::before {
+* {
     box-sizing: border-box;
-}
-
-a,
-ul {
     text-decoration: none;
     list-style-type: none;
 }
