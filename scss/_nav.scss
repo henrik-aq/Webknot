@@ -1,25 +1,25 @@
 .nav {
   position: fixed;
   top: 0;
-  width: $full;
+  width: $width-full;
   z-index: 1;
 }
 
 // hamburger
 .nav__hamburger {
   position: absolute;
-  top: $medium;
-  right: $medium;
+  top: $pm-medium;
+  right: $pm-medium;
   width: 2rem;
   z-index: 10;
 
-  @media screen and (min-width: $tablet) {
-    top: $large;
-    right: $large;
+  @media screen and (min-width: $breakpoint-tablet) {
+    top: $pm-large;
+    right: $pm-large;
     width: 3rem;
   }
 
-  @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $breakpoint-desktop) {
     display: none;
   }
 }
@@ -27,14 +27,12 @@
 .nav__hamburger-line {
   height: 4px;
   background-color: $color-text;
-  margin-bottom: $small;
-  -webkit-transition: .3s ease;
-  -o-transition: .3s ease;
-  transition: .3s ease;
+  margin-bottom: $pm-small;
+  transition: 0.3s ease;
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $breakpoint-tablet) {
     height: 6px;
-    margin-bottom: $small;
+    margin-bottom: $pm-small;
   }
 }
 
@@ -45,15 +43,11 @@
 // menu
 .nav__menu {
   background-color: $color-background-alt;
-  width: $full;
-  padding: $large 0;
+  width: $width-full;
+  padding: $pm-large 0;
   text-align: center;
-  -webkit-transform-origin: top;
-      -ms-transform-origin: top;
-          transform-origin: top;
-  -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-          transform: scaleY(0);
+  transform-origin: top;
+  transform: scaleY(0);
 
   ul {
     padding: 0;
@@ -63,7 +57,7 @@
       display: inline;
       @supports (display: flex) {
         display: list-item;
-        margin: $medium 0;
+        margin: $pm-medium 0;
       }
     }
   }
@@ -82,112 +76,38 @@
       bottom: 0;
       height: 2px;
       background-color: $color-highlight;
-      -webkit-transition: .2s ease;
-      -o-transition: .2s ease;
-      transition: .2s ease;
-      -webkit-transform: scaleX(0);
-          -ms-transform: scaleX(0);
-              transform: scaleX(0);
+      transition: 0.2s ease;
+      transform: scaleX(0);
     }
 
     &:hover::after {
-      -webkit-transform: scaleX(1);
-          -ms-transform: scaleX(1);
-              transform: scaleX(1);
+      transform: scaleX(1);
     }
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $breakpoint-tablet) {
     font-size: $font-size-medium;
   }
 
-  @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $breakpoint-desktop) {
     position: fixed;
-    -webkit-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-            transform: scaleY(1);
-    padding: $medium 0;
+    transform: scaleY(1);
+    padding: $pm-medium 0;
     text-align: center;
 
     ul li {
       display: inline;
-      margin: 0 $large;
+      margin: 0 $pm-large;
     }
   }
 }
 
 .nav-is-active {
-  -webkit-animation: menuAnimationOn .5s 1;
-          animation: menuAnimationOn .5s 1;
-  -webkit-transform: scaleY(1);
-      -ms-transform: scaleY(1);
-          transform: scaleY(1);
+  animation: menuAnimationOn 0.5s 1;
+  transform: scaleY(1);
 }
 
 .nav-not-active {
-  -webkit-animation: menuAnimationOff .3s 1;
-          animation: menuAnimationOff .3s 1;
-  -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-          transform: scaleY(0);
-}
-
-@-webkit-keyframes menuAnimationOn {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-  30% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-}
-
-@keyframes menuAnimationOn {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-  30% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-}
-
-@-webkit-keyframes menuAnimationOff {
-  0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-  70% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-}
-
-@keyframes menuAnimationOff {
-  0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-  70% {
-    -webkit-transform: scaleY(1.1);
-            transform: scaleY(1.1);
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
+  animation: menuAnimationOff 0.3s 1;
+  transform: scaleY(0);
 }
