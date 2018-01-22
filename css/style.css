@@ -30,8 +30,8 @@ ul {
 /* line 9, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
 .nav__hamburger {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 1em;
+  right: 1em;
   width: 2rem;
   z-index: 10;
 }
@@ -39,8 +39,8 @@ ul {
 @media screen and (min-width: 768px) {
   /* line 9, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav__hamburger {
-    top: 2rem;
-    right: 2rem;
+    top: 2em;
+    right: 2em;
     width: 3rem;
   }
 }
@@ -56,7 +56,7 @@ ul {
 .nav__hamburger-line {
   height: 4px;
   background-color: #09110E;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
   -webkit-transition: .3s ease;
   -o-transition: .3s ease;
   transition: .3s ease;
@@ -66,7 +66,7 @@ ul {
   /* line 27, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav__hamburger-line {
     height: 6px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -79,7 +79,7 @@ ul {
 .nav__menu {
   background-color: #DADEDE;
   width: 100%;
-  padding: 2rem 0;
+  padding: 2em 0;
   text-align: center;
   -webkit-transform-origin: top;
   -ms-transform-origin: top;
@@ -104,7 +104,7 @@ ul {
   /* line 62, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav__menu ul li {
     display: list-item;
-    margin: 1rem 0;
+    margin: 1em 0;
   }
 }
 
@@ -144,7 +144,7 @@ ul {
 @media screen and (min-width: 768px) {
   /* line 46, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav__menu {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 }
 
@@ -155,13 +155,13 @@ ul {
     -webkit-transform: scaleY(1);
     -ms-transform: scaleY(1);
     transform: scaleY(1);
-    padding: 1rem 0;
+    padding: 1em 0;
     text-align: center;
   }
   /* line 112, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_nav.scss */
   .nav__menu ul li {
     display: inline;
-    margin: 0 2rem;
+    margin: 0 2em;
   }
 }
 
@@ -247,7 +247,7 @@ ul {
 .header {
   display: block;
   width: 100%;
-  padding: 8rem 0;
+  padding: 8em 0;
 }
 
 /* line 7, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_header.scss */
@@ -265,7 +265,7 @@ ul {
 /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_about.scss */
 .about__container {
   background-color: #DADEDE;
-  padding: 2rem;
+  padding: 2em;
 }
 
 /* line 6, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_about.scss */
@@ -273,22 +273,22 @@ ul {
   text-align: justify;
   text-justify: inter-word;
   color: #09110E;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 /* line 13, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_about.scss */
 .about__text__big {
   color: #D80303;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_services.scss */
 .services {
   /* Equal to skewX(10deg) */
   background-color: #DADEDE;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em;
 }
 
 /* line 10, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_services.scss */
@@ -372,12 +372,12 @@ services-img {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 2em;
 }
 
 /* line 12, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_footer.scss */
 .footer__adress--text {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 @supports (display: flex) {
@@ -390,7 +390,7 @@ services-img {
 @media screen and (min-width: 768px) {
   /* line 12, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_footer.scss */
   .footer__adress--text {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 }
 
@@ -402,14 +402,14 @@ services-img {
 @supports (display: flex) {
   /* line 24, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_footer.scss */
   .footer__social-media__button {
-    width: 2rem;
+    width: 2em;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 24, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_footer.scss */
   .footer__social-media__button {
-    width: 3rem;
+    width: 3em;
   }
 }
 
@@ -422,7 +422,7 @@ services-img {
 @media screen and (min-width: 768px) {
   /* line 36, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_footer.scss */
   .footer__arrow--text {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 }
 
@@ -482,8 +482,6 @@ services-img {
 /* line 1, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/_tags.scss */
 body {
   font-family: 'Comfortaa', verdana;
-  background-color: #f2f4f3;
-  overflow-x: hidden;
 }
 
 /* line 15, C:/Users/Leo/Desktop/Projekt/Skolprojekt/HTML & CSS/Webknot/scss/style.scss */
