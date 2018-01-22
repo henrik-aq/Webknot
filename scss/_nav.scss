@@ -1,7 +1,7 @@
 .nav {
   position: fixed;
   top: 0;
-  width: $full;
+  width: $width-full;
   z-index: 1;
 }
 
@@ -43,7 +43,7 @@
 // menu
 .nav__menu {
   background-color: $color-background-alt;
-  width: $full;
+  width: $width-full;
   padding: $pm-large 0;
   text-align: center;
   transform-origin: top;
