@@ -1,8 +1,8 @@
 // Colors
 $color-background: #f2f4f3;
-$color-background-alt: #DADEDE;
-$color-highlight: #D80303;
-$color-text: #09110E;
+$color-background-alt: #dadede;
+$color-highlight: #d80303;
+$color-text: #09110e;
 $color-citation: gray;
 
 // font sizing
@@ -12,14 +12,14 @@ $font-size-large: 2em;
 $font-size-extra-large: 3em;
 
 // paddings & margins
-$small: .5em;
-$medium: 1em;
-$large: 2em;
-$extra-large: 4em;
+$pm-small: 0.5em;
+$pm-medium: 1em;
+$pm-large: 2em;
+$pm-extra-large: 4em;
 
 // breakpoints
-$tablet: 768px;
-$desktop: 960px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 960px;
 
 // element width
 $full: 100%;

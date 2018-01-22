@@ -24,7 +24,7 @@ h4 {
 .header {
   display: block;
   width: 100%;
-  padding: $large*4 0;
+  padding: $pm-large*4 0;
 }
 
 .header__container {
@@ -40,7 +40,7 @@ h4 {
 // About section
 .about__container {
   background-color: $color-background-alt;
-  padding: $large;
+  padding: $pm-large;
 }
 
 .about__text {
@@ -60,8 +60,8 @@ h4 {
   //transform: skew(-3deg, -3deg) scale(1.2) rotate(4deg);
   /* Equal to skewX(10deg) */
   background-color: $color-background-alt;
-  padding: $small;
-  margin: $small;
+  padding: $pm-small;
+  margin: $pm-small;
   font-size: $font-size-small;
 }
 
@@ -81,19 +81,19 @@ services-img {
   grid-gap: 2rem;
   align-items: center;
   justify-items: center;
-  @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $breakpoint-desktop) {
     padding: 0 20rem 0 20rem;
   }
 }
 
 .reviews__overall-scores {
   text-align: center;
-  padding: 2rem;
+  padding: $pm-large;
 }
 .reviews__card {
   border-radius: 55px;
   background-color: darken($color-background, 5);
-  padding: 2rem;
+  padding: $pm-large;
 }
 .reviews__card__text {
   font-style: italic;
@@ -114,7 +114,7 @@ services-img {
 .footer__container {
   @include flex(column, center, center);
   text-align: center;
-  padding-top: $large;
+  padding-top: $pm-large;
 }
 
 .footer__adress--text {
@@ -124,7 +124,7 @@ services-img {
     text-align: left;
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $breakpoint-tablet) {
     font-size: $font-size-medium;
   }
 }
@@ -133,10 +133,10 @@ services-img {
   width: 3em;
 
   @supports (display: flex) {
-    width: $large;
+    width: $pm-large;
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $breakpoint-tablet) {
     width: $font-size-extra-large;
   }
 }
@@ -144,7 +144,7 @@ services-img {
 .footer__arrow--text {
   text-transform: uppercase;
   font-weight: normal;
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $breakpoint-tablet) {
     font-size: $font-size-medium;
   }
 }
