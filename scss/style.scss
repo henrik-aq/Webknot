@@ -68,12 +68,37 @@ h4 {
     }
 }
 
+.services__left {
+    @media screen and (min-width: $breakpoint-tablet) {
+        float: left;
+        width: 33%;
+        border-right: 1px solid #000;
+        height: 26em;
+    }
+}
+
+.services__center {
+    @media screen and (min-width: $breakpoint-tablet) {
+        display: inline-block;
+        width: 33%;
+        border-right: 1px solid #000;
+        height: 26em;
+    }
+}
+
+.services__right {
+    @media screen and (min-width: $breakpoint-tablet) {
+        float: right;
+        width: 33%;
+    }
+}
+
 services__img {
     width: 100%;
     height: auto;
 }
 
-.services__list {
+.services__list li {
     list-style-type: disc;
 }
 
