@@ -61,6 +61,11 @@ h4 {
     padding: $pm-small;
     margin: $pm-small;
     font-size: $font-size-small;
+    @media screen and (min-width: $breakpoint-tablet) {
+        font-size: $font-size-medium;
+        padding: $pm-medium;
+        margin: $pm-medium;
+    }
 }
 
 services__img {
