@@ -42,10 +42,13 @@ h4 {
 }
 
 .about__text {
+    max-width: 1400px;
+    margin: auto;
   text-align: justify;
   text-justify: inter-word;
   color: $color-text;
   font-size: $font-size-medium;
+  margin-bottom: 200px;
 }
 
 .about__text__big {
