@@ -61,6 +61,8 @@ h4 {
     padding: $pm-small;
     margin: $pm-small;
     font-size: $font-size-small;
+    transform: skew(-2deg);
+    transform: skewY(1deg);
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-medium;
@@ -74,6 +76,8 @@ h4 {
         width: 33%;
         border-right: 1px solid #000;
         height: 26em;
+        transform: skew(2deg);
+        transform: skewY(-1deg);
     }
 }
 
@@ -83,6 +87,8 @@ h4 {
         width: 33%;
         border-right: 1px solid #000;
         height: 26em;
+        transform: skew(2deg);
+        transform: skewY(-1deg);
     }
 }
 
@@ -90,6 +96,8 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         float: right;
         width: 33%;
+        transform: skew(2deg);
+        transform: skewY(-1deg);
     }
 }
 
