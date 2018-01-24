@@ -6,152 +6,148 @@
 @import "animations";
 // General section styling goes here!
 body {
-  font-family: "Comfortaa", verdana;
-  overflow-x: hidden;
+    font-family: "Comfortaa", verdana;
+    overflow-x: hidden;
 }
 
-section > h2 {
-  font-size: $font-size-extra-large;
+section>h2 {
+    font-size: $font-size-extra-large;
 }
 
 h2,
 h3,
 h4 {
-  text-align: center;
+    text-align: center;
 }
 
 .background {
-  top: 90vh;
-  background-color: $color-background-alt;
-  transform: rotate(1deg);
-  height: 200vh;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-
-  @media screen and (min-width: $breakpoint-tablet) {
-    transform: rotate(2deg);
-  }
-
-  @media screen and (min-width: $breakpoint-desktop) {
-    transform: rotate(3deg);
-  }
+    top: 90vh;
+    background-color: $color-background-alt;
+    transform: rotate(1deg);
+    height: 200vh;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    @media screen and (min-width: $breakpoint-tablet) {
+        transform: rotate(2deg);
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        transform: rotate(3deg);
+    }
 }
 
 // Header styling
 .header {
-  display: block;
-  width: 100%;
-  padding: $pm-large*4 0;
+    display: block;
+    width: 100%;
+    padding: $pm-large*4 0;
 }
 
 .header__container {
-  position: relative;
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-  }
+    position: relative;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
 }
 
 // About section
 .about__container {
-  width: 80%;
-  z-index: 1;
+    width: 80%;
+    z-index: 1;
 }
 
 .about__text {
-  max-width: 1400px;
-  margin: auto;
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: $font-size-large;
-  color: $color-text;
-  font-size: $font-size-medium;
-  margin-bottom: 200px;
+    max-width: 1400px;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: $font-size-large;
+    color: $color-text;
+    font-size: $font-size-medium;
+    margin-bottom: 200px;
 }
 
 .about__text__big {
-  color: $color-highlight;
-  font-size: $font-size-large;
-
+    color: $color-highlight;
+    font-size: $font-size-large;
 }
 
 // Services section styling
 .services__container {
-  padding: $pm-medium;
-  font-size: $font-size-small;
-  @media screen and (min-width: $breakpoint-tablet) {
-    font-size: $font-size-medium;
     padding: $pm-medium;
-  }
-
-  margin: 200px 0 200px 0; //Fixes review section covering up others
-
+    font-size: $font-size-small;
+    margin-bottom: 30em;
+    @media screen and (min-width: $breakpoint-tablet) {
+        font-size: $font-size-medium;
+        padding: $pm-medium;
+    }
 }
 
 .services__left {
-  @media screen and (min-width: $breakpoint-tablet) {
-    float: left;
-    width: 33%;
-    border-right: 1px solid #000;
-    height: 26em;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        float: left;
+        width: 33%;
+        border-right: 1px solid #000;
+        height: 26em;
+    }
 }
 
 .services__center {
-  @media screen and (min-width: $breakpoint-tablet) {
-    display: inline-block;
-    width: 33%;
-    border-right: 1px solid #000;
-    height: 26em;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        display: inline-block;
+        width: 33%;
+        border-right: 1px solid #000;
+        height: 26em;
+    }
 }
 
 .services__right {
-  @media screen and (min-width: $breakpoint-tablet) {
-    float: right;
-    width: 33%;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        float: right;
+        width: 33%;
+    }
 }
 
 .services__list li {
-  list-style-type: disc;
+    list-style-type: disc;
 }
 
 // Review section styling goes here
 .reviews__container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  max-width: 1400px;
-  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .reviews__card {
-  border-radius: $pm-medium;
-  background-color: $color-background-alt;
-  padding: 0 $pm-large;
-  margin: $pm-small;
+    border-radius: $pm-medium;
+    background-color: $color-background-alt;
+    padding: 0 $pm-large;
+    margin: $pm-small;
 }
 
 .reviews__card__text {
-  font-style: italic;
-  font-size: $font-size-small;
-  &::before,
-  &::after {
-    font-size: $font-size-large;
-    color: $color-highlight;
-    padding:0 5px;
-  }
-  &::before {
-    content: "“";
-  }
-  &::after {
-    content: "”";
-  }
+    font-style: italic;
+    font-size: $font-size-small;
+    &::before,
+    &::after {
+        font-size: $font-size-large;
+        color: $color-highlight;
+        padding: 0 5px;
+    }
+    &::before {
+        content: "“";
+    }
+    &::after {
+        content: "”";
+    }
 }
+
 .reviews__card__name {
     font-size: $font-size-extra-small;
     float: right;
@@ -168,39 +164,39 @@ h4 {
 // Footer section
 .footer {
     margin-top: 100px;
-  background-color: $color-text;
-  color: $color-background;
+    background-color: $color-text;
+    color: $color-background;
 }
 
 .footer__container {
-  @include flex(column,
+    @include flex(column,
     center,
     center);
-  text-align: center;
-  padding-top: $pm-large;
+    text-align: center;
+    padding-top: $pm-large;
 }
 
 .footer__adress--text {
-  font-size: $font-size-small;
-  @supports (display: flex) {
-    text-align: left;
-  }
-  @media screen and (min-width: $breakpoint-tablet) {
-    font-size: $font-size-medium;
-  }
+    font-size: $font-size-small;
+    @supports (display: flex) {
+        text-align: left;
+    }
+    @media screen and (min-width: $breakpoint-tablet) {
+        font-size: $font-size-medium;
+    }
 }
 
 .footer__social-media__button {
-  width: 3em;
-  @supports (display: flex) {
-    width: $pm-large;
-  }
-  @media screen and (min-width: $breakpoint-tablet) {
-    width: $font-size-extra-large;
-  }
+    width: 3em;
+    @supports (display: flex) {
+        width: $pm-large;
+    }
+    @media screen and (min-width: $breakpoint-tablet) {
+        width: $font-size-extra-large;
+    }
 }
 
 .footer__arrow--arrow {
-  color: $color-background;
-  font-size: $font-size-extra-large * 2;
+    color: $color-background;
+    font-size: $font-size-extra-large * 2;
 }
