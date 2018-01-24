@@ -7,6 +7,7 @@
 // General section styling goes here!
 body {
   font-family: "Comfortaa", verdana;
+  overflow-x: hidden;
 }
 
 section > h2 {
@@ -17,6 +18,24 @@ h2,
 h3,
 h4 {
   text-align: center;
+}
+
+.background {
+  top: 90vh;
+  background-color: $color-background-alt;
+  transform: rotate(1deg);
+  height: 200vh;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    transform: rotate(2deg);
+  }
+
+  @media screen and (min-width: $breakpoint-desktop) {
+    transform: rotate(3deg);
+  }
 }
 
 // Header styling
@@ -37,8 +56,8 @@ h4 {
 
 // About section
 .about__container {
-  background-color: $color-background-alt;
-  padding: $pm-large;
+  width: 80%;
+  z-index: 1;
 }
 
 .about__text {
@@ -46,19 +65,19 @@ h4 {
   text-justify: inter-word;
   color: $color-text;
   font-size: $font-size-medium;
+
 }
 
 .about__text__big {
   color: $color-highlight;
   font-size: $font-size-large;
+
 }
 
 // Services section styling
-.services {
-  background-color: $color-background-alt;
+.services__container {
   padding: $pm-medium;
   font-size: $font-size-small;
-  transform: rotate(4deg);
   @media screen and (min-width: $breakpoint-tablet) {
     font-size: $font-size-medium;
     padding: $pm-medium;
@@ -71,7 +90,6 @@ h4 {
     width: 33%;
     border-right: 1px solid #000;
     height: 26em;
-    transform: rotate(-4deg);
   }
 }
 
@@ -81,7 +99,6 @@ h4 {
     width: 33%;
     border-right: 1px solid #000;
     height: 26em;
-    transform: rotate(-4deg);
   }
 }
 
@@ -89,7 +106,6 @@ h4 {
   @media screen and (min-width: $breakpoint-tablet) {
     float: right;
     width: 33%;
-    transform: rotate(-4deg);
   }
 }
 
