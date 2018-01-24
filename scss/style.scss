@@ -120,9 +120,10 @@ h4 {
 }
 
 .services__img {
-    display: block;
     margin: $pm-large auto;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 // Review section styling goes here
