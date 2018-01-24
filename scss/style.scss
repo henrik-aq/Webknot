@@ -23,18 +23,18 @@ h4 {
 .background--wrapper {
   position: absolute;
   width: 100%;
-  height: 320vh;
+  height: 130em;
   top: 40%;
   overflow: hidden;
   z-index: -1;
 
   @media screen and (min-width: $breakpoint-tablet) {
-    height: 200vh;
+    height: 110em;
   }
 
   @media screen and (min-width: $breakpoint-desktop) {
-    top: 35%;
-    height: 120vh;
+    top: 45%;
+    height: 100em;
   }
 }
 
