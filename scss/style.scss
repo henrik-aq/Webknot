@@ -61,11 +61,16 @@ h4 {
 }
 
 .about__text {
+    max-width: 1400px;
+    margin: auto;
   text-align: justify;
   text-justify: inter-word;
   color: $color-text;
   font-size: $font-size-medium;
 
+=======
+  margin-bottom: 200px;
+>>>>>>> 1f9678b1e92b4ba899be4c07d69cfc0745bb3885
 }
 
 .about__text__big {
@@ -117,15 +122,10 @@ h4 {
 .reviews__container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  @media screen and (min-width: $breakpoint-desktop) {
-    padding: 0 20rem 0 20rem;
-  }
-}
-
-.reviews__overall-scores {
-  text-align: center;
-  padding: $pm-large;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .reviews__card {
