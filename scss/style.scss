@@ -55,18 +55,13 @@ h4 {
 
 // Services section styling
 .services {
-    //transform: skew(-3deg, -3deg) scale(1.2) rotate(4deg);
-    /* Equal to skewX(10deg) */
     background-color: $color-background-alt;
-    padding: $pm-small;
-    margin: $pm-small;
+    padding: $pm-medium;
     font-size: $font-size-small;
-    transform: skew(-2deg);
-    transform: skewY(1deg);
+    transform: rotate(4deg);
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-medium;
-        margin: $pm-medium;
     }
 }
 
@@ -76,8 +71,7 @@ h4 {
         width: 33%;
         border-right: 1px solid #000;
         height: 26em;
-        transform: skew(2deg);
-        transform: skewY(-1deg);
+        transform: rotate(-4deg);
     }
 }
 
@@ -87,8 +81,7 @@ h4 {
         width: 33%;
         border-right: 1px solid #000;
         height: 26em;
-        transform: skew(2deg);
-        transform: skewY(-1deg);
+        transform: rotate(-4deg);
     }
 }
 
@@ -96,8 +89,7 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         float: right;
         width: 33%;
-        transform: skew(2deg);
-        transform: skewY(-1deg);
+        transform: rotate(-4deg);
     }
 }
 
