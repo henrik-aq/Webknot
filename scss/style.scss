@@ -65,10 +65,14 @@ h4 {
     }
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+}
 // About section
 .about__container {
     width: 80%;
-    z-index: 1;
+    margin-bottom: 200px;
 }
 
 .about__text {
@@ -76,15 +80,21 @@ h4 {
     margin: auto;
     text-align: justify;
     text-justify: inter-word;
-    line-height: $font-size-large;
+    line-height: $font-size-small;
     color: $color-text;
-    font-size: $font-size-medium;
-    margin-bottom: 200px;
+    font-size: $font-size-small;
+    @media screen and (min-width: $breakpoint-tablet) {
+        font-size: $font-size-medium;
+        line-height: $font-size-large;
+    }
 }
 
 .about__text__big {
     color: $color-highlight;
-    font-size: $font-size-large;
+    font-size: $font-size-medium;
+    @media screen and (min-width: $breakpoint-tablet) {
+        font-size: $font-size-large;
+    }
 }
 
 // Services section styling
@@ -104,7 +114,7 @@ h4 {
         float: left;
         width: 33%;
         border-right: 1px solid #000;
-        height: 26em;
+        height: 35em;
         flex: 1 1 33%;
     }
 }
@@ -114,7 +124,7 @@ h4 {
         display: inline-block;
         width: 33%;
         border-right: 1px solid #000;
-        height: 26em;
+        height: 35em;
         flex: 1 1 33%;
     }
 }
@@ -129,13 +139,14 @@ h4 {
 
 .services__list li {
     list-style-type: disc;
+    margin: $pm-medium;
 }
 
 .services__img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin: $pm-large auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 // Review section styling goes here
