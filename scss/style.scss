@@ -101,13 +101,14 @@ h4 {
 .reviews__container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   max-width: 1200px;
   margin: auto;
 }
 
 .reviews__card {
-  border-radius: $pm-small;
+  border-radius: $pm-medium;
   background-color: darken($color-background, 5);
   padding: 0 $pm-medium;
   margin: $pm-small;
