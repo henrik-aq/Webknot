@@ -3,7 +3,7 @@ $color-background: #f2f4f3;
 $color-background-alt: #dadede;
 $color-highlight: #d80303;
 $color-text: #09110e;
-$color-citation: gray;
+$color-citation: darken($color-background-alt, 50%);
 
 // font sizing
 $font-size-extra-small: 0.8em;

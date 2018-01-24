@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import "reset";
 @import "variables";
 @import "mixins";
-@import "reset";
 @import "nav";
 @import "animations";
 // General section styling goes here!
@@ -10,7 +10,7 @@ body {
 }
 
 section > h2 {
-  font-size: 2.5rem;
+  font-size: $font-size-large;
 }
 
 h2,
@@ -103,24 +103,23 @@ h4 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
 }
 
 .reviews__card {
   border-radius: $pm-medium;
-  background-color: darken($color-background, 5);
-  padding: 0 $pm-medium;
+  background-color: $color-background-alt;
+  padding: 0 $pm-large;
   margin: $pm-small;
 }
 
 .reviews__card__text {
   font-style: italic;
-  color: $color-citation;
   font-size: $font-size-small;
   &::before,
   &::after {
-    font-size: $font-size-medium;
+    font-size: $font-size-large;
     color: $color-highlight;
     padding:0 5px;
   }
@@ -134,6 +133,7 @@ h4 {
 .reviews__card__name {
     font-size: $font-size-extra-small;
     float: right;
+    color: darken($color-background-alt, 40%);
 }
 
 .reviews__card__overall-scores {
