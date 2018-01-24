@@ -11,7 +11,7 @@ body {
 }
 
 section > h2 {
-  font-size: $font-size-large;
+  font-size: $font-size-extra-large;
 }
 
 h2,
@@ -61,17 +61,14 @@ h4 {
 }
 
 .about__text {
-    max-width: 1400px;
-    margin: auto;
+  max-width: 1400px;
+  margin: auto;
   text-align: justify;
   text-justify: inter-word;
+  line-height: $font-size-large;
   color: $color-text;
   font-size: $font-size-medium;
-<<<<<<< HEAD
-
-=======
   margin-bottom: 200px;
->>>>>>> 1f9678b1e92b4ba899be4c07d69cfc0745bb3885
 }
 
 .about__text__big {
@@ -88,6 +85,9 @@ h4 {
     font-size: $font-size-medium;
     padding: $pm-medium;
   }
+
+  margin: 200px 0 200px 0; //Fixes review section covering up others
+
 }
 
 .services__left {
@@ -167,6 +167,7 @@ h4 {
 
 // Footer section
 .footer {
+    margin-top: 100px;
   background-color: $color-text;
   color: $color-background;
 }
