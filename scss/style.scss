@@ -106,8 +106,6 @@ h4 {
 
 .services__left {
     @media screen and (min-width: $breakpoint-tablet) {
-        float: left;
-        width: $width-third;
         border-right: 1px solid #000;
         height: 35em;
         flex: 1 1 33%;
@@ -141,8 +139,6 @@ h4 {
   text-align: center;
 
   img {
-    break: both;
-    margin: 0 auto;
     clear: both;
   }
 
