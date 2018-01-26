@@ -55,7 +55,10 @@
 
     li {
       display: inline;
+      margin: 0 $pm-medium;
+      font-size: $font-size-medium;
       @supports (display: flex) {
+        font-size: $font-size-small;
         display: list-item;
         margin: $pm-medium 0;
       }
