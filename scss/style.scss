@@ -101,12 +101,12 @@ h3 {
 }
 
 .services__container {
-    padding: $pm-medium;
+    padding: $pm-small;
     font-size: $font-size-small;
     margin-bottom: $pm-extra-large*2;
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
-        padding: $pm-medium;
+        padding: $pm-small;
         display: flex;
     }
 }
@@ -116,7 +116,6 @@ h3 {
         border-right: 1px solid #000;
         height: 48em;
         flex: 1 1 33%;
-        margin-right: $pm-small;
         margin-left: $pm-small;
     }
 }
@@ -128,8 +127,6 @@ h3 {
         border-right: 1px solid #000;
         height: 48em;
         flex: 1 1 33%;
-        margin-right: $pm-small;
-        margin-left: $pm-small;
     }
 }
 
@@ -139,7 +136,6 @@ h3 {
         width: $width-third;
         flex: 1 1 33%;
         margin-right: $pm-small;
-        margin-left: $pm-small;
     }
 }
 
