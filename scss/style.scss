@@ -77,12 +77,13 @@ h4 {
     line-height: $font-size-large;
     color: $color-text;
     font-size: $font-size-small;
-    margin-bottom: $pm-large*3;
+    margin-bottom: $pm-large*4;
+    margin-top: $pm-large*4;
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         line-height: $font-size-large;
-        margin-right: $pm-extra-large;
-        margin-left: $pm-extra-large;
+        margin-right: $pm-extra-large*2;
+        margin-left: $pm-extra-large*2;
     }
 }
 
@@ -102,7 +103,7 @@ h3 {
 .services__container {
     padding: $pm-medium;
     font-size: $font-size-small;
-    margin-bottom: $pm-extra-large*3;
+    margin-bottom: $pm-extra-large*2;
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-medium;
@@ -115,6 +116,8 @@ h3 {
         border-right: 1px solid #000;
         height: 48em;
         flex: 1 1 33%;
+        margin-right: $pm-small;
+        margin-left: $pm-small;
     }
 }
 
@@ -125,6 +128,8 @@ h3 {
         border-right: 1px solid #000;
         height: 48em;
         flex: 1 1 33%;
+        margin-right: $pm-small;
+        margin-left: $pm-small;
     }
 }
 
@@ -133,6 +138,8 @@ h3 {
         float: left;
         width: $width-third;
         flex: 1 1 33%;
+        margin-right: $pm-small;
+        margin-left: $pm-small;
     }
 }
 
