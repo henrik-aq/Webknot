@@ -76,11 +76,13 @@ h4 {
     text-justify: inter-word;
     line-height: $font-size-large;
     color: $color-text;
-    font-size: $font-size-medium;
-
+    font-size: $font-size-small;
+    margin-bottom: $pm-large*3;
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         line-height: $font-size-large;
+        margin-right: $pm-extra-large;
+        margin-left: $pm-extra-large;
     }
 }
 
@@ -93,10 +95,14 @@ h4 {
 }
 
 // Services section styling
+h3 {
+    margin-top: $pm-extra-large;
+}
+
 .services__container {
     padding: $pm-medium;
     font-size: $font-size-small;
-    margin-bottom: 10em;
+    margin-bottom: $pm-extra-large*3;
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-medium;
@@ -107,7 +113,7 @@ h4 {
 .services__left {
     @media screen and (min-width: $breakpoint-tablet) {
         border-right: 1px solid #000;
-        height: 35em;
+        height: 48em;
         flex: 1 1 33%;
     }
 }
@@ -117,7 +123,7 @@ h4 {
         float: left;
         width: $width-third;
         border-right: 1px solid #000;
-        height: 35em;
+        height: 48em;
         flex: 1 1 33%;
     }
 }
@@ -136,18 +142,29 @@ h4 {
 }
 
 .services__img {
-  text-align: center;
-
-  img {
-    clear: both;
-  }
-
-  @supports (display: flex) {
-    margin: $pm-large auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    img {
+        clear: both;
     }
+    @supports (display: flex) {
+        margin: $pm-large auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+services__img-left {
+    width: 1em;
+    height: 1em;
+}
+
+services__img-center {
+    width: 30%;
+}
+
+services__img-right {
+    width: 30%;
 }
 
 // Review section styling goes here
