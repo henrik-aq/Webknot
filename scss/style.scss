@@ -62,30 +62,25 @@ h4 {
     }
 }
 
-.about {
-    display: flex;
-    justify-content: center;
-}
-
 // About section
 .about__container {
+    margin: auto;
     width: 80%;
+    z-index: 1;
+    max-width: 1400px;
     margin-bottom: 200px;
 }
 
 .about__text {
-    max-width: 1400px;
-    margin: auto;
-    margin: 5em 1em 0em 1em;
     text-align: justify;
     text-justify: inter-word;
-    line-height: $font-size-small;
+    line-height: $font-size-large;
     color: $color-text;
-    font-size: $font-size-small;
+    font-size: $font-size-medium;
+  
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         line-height: $font-size-large;
-        margin: 7em 7em 5em 7em;
     }
 }
 
