@@ -72,19 +72,22 @@ h4 {
 }
 
 .about__text {
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: $font-size-large;
-    color: $color-text;
-    font-size: $font-size-small;
-    margin-bottom: $pm-large*4;
-    margin-top: $pm-large*4;
-    @media screen and (min-width: $breakpoint-tablet) {
-        font-size: $font-size-medium;
-        line-height: $font-size-large;
-        margin-right: $pm-extra-large*2;
-        margin-left: $pm-extra-large*2;
-    }
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: $font-size-large;
+  color: $color-text;
+  font-size: $font-size-small;
+  margin: $pm-large*4 0;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+      margin: 0 $pm-extra-large;
+  }
+
+  @media screen and (min-width: $breakpoint-desktop) {
+      font-size: $font-size-medium;
+      line-height: $font-size-large;
+      margin: 0 $pm-extra-large*2;
+  }
 }
 
 .about__text__big {
@@ -104,10 +107,15 @@ h3 {
     padding: $pm-small;
     font-size: $font-size-small;
     margin-bottom: $pm-extra-large*2;
+
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-small;
         display: flex;
+    }
+
+    img {
+      width: 40%;
     }
 }
 
