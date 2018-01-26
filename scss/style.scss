@@ -77,7 +77,7 @@ h4 {
     line-height: $font-size-large;
     color: $color-text;
     font-size: $font-size-medium;
-  
+
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         line-height: $font-size-large;
@@ -138,10 +138,17 @@ h4 {
 }
 
 .services__img {
+
+  img {
+    height: 100%;
+  }
+
+  @supports (display: flex) {
     margin: $pm-large auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    }
 }
 
 // Review section styling goes here
