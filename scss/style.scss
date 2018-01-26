@@ -107,7 +107,7 @@ h4 {
 .services__left {
     @media screen and (min-width: $breakpoint-tablet) {
         float: left;
-        width: 33%;
+        width: $width-third;
         border-right: 1px solid #000;
         height: 35em;
         flex: 1 1 33%;
@@ -116,8 +116,8 @@ h4 {
 
 .services__center {
     @media screen and (min-width: $breakpoint-tablet) {
-        display: inline-block;
-        width: 33%;
+        float: left;
+        width: $width-third;
         border-right: 1px solid #000;
         height: 35em;
         flex: 1 1 33%;
@@ -126,8 +126,8 @@ h4 {
 
 .services__right {
     @media screen and (min-width: $breakpoint-tablet) {
-        float: right;
-        width: 33%;
+        float: left;
+        width: $width-third;
         flex: 1 1 33%;
     }
 }
@@ -138,9 +138,12 @@ h4 {
 }
 
 .services__img {
+  text-align: center;
 
   img {
-    height: 100%;
+    break: both;
+    margin: 0 auto;
+    clear: both;
   }
 
   @supports (display: flex) {
