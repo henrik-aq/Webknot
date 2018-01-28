@@ -110,9 +110,7 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-small;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        @include flex();
     }
 
     img {
