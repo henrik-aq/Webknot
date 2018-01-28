@@ -227,6 +227,7 @@ h4 {
 
 .footer__adress--text {
   font-size: $font-size-small;
+  line-height: 1.4;
   @supports ((display: -webkit-box) or (display: flex)) {
     text-align: left;
   }
@@ -245,6 +246,9 @@ h4 {
   }
 }
 
+.footer__arrow {
+  padding: $pm-extra-large;
+}
 .footer__arrow--arrow {
   color: $color-background;
   font-size: $font-size-extra-large * 2;
