@@ -110,6 +110,8 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
         padding: $pm-small;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -122,7 +124,9 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         border-right: 1px solid #000;
         height: 48em;
-        flex: 1 1 33%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 33%;
+                flex: 1 1 33%;
         margin-left: $pm-small;
     }
 }
@@ -133,7 +137,9 @@ h4 {
         width: $width-third;
         border-right: 1px solid #000;
         height: 48em;
-        flex: 1 1 33%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 33%;
+                flex: 1 1 33%;
     }
 }
 
@@ -141,7 +147,9 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         float: left;
         width: $width-third;
-        flex: 1 1 33%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 33%;
+                flex: 1 1 33%;
         margin-right: $pm-small;
     }
 }
@@ -156,20 +164,17 @@ h4 {
     img {
         clear: both;
     }
-    @supports (display: flex) {
+    @supports ((display: -webkit-box) or (display: flex)) {
         margin: $pm-large auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex(row, center, center);
     }
 }
 
 // Review section styling goes here
 .reviews__container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    @include flex(row, center, center);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     max-width: 1400px;
     margin: auto;
 }
@@ -228,7 +233,7 @@ h4 {
 
 .footer__adress--text {
     font-size: $font-size-small;
-    @supports (display: flex) {
+    @supports ((display: -webkit-box) or (display: flex)) {
         text-align: left;
     }
     @media screen and (min-width: $breakpoint-tablet) {
@@ -238,7 +243,7 @@ h4 {
 
 .footer__social-media__button {
     width: 3em;
-    @supports (display: flex) {
+    @supports ((display: -webkit-box) or (display: flex)) {
         width: $pm-large;
     }
     @media screen and (min-width: $breakpoint-tablet) {
