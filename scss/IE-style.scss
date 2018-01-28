@@ -7,13 +7,28 @@
   }
 }
 
+.background__bottom-skew,
+.background__top-skew {
+  display: none;
+}
+
+.about__text {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+
+.services {
+  background-color: #dadede;
+}
+
 .services__container {
   width: $width-full;
 }
 
 .services__left, .services__center, .services__right {
   float: left;
-  width: $width-third;
+  width: 32%;
 }
 
 .reviews {
