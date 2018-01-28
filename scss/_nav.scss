@@ -55,7 +55,9 @@
 
     li {
       display: inline;
-      @supports (display: flex) {
+      margin: 0 $pm-medium;
+      @supports ((display: -webkit-box) or (display: flex)) {
+        font-size: $font-size-small;
         display: list-item;
         margin: $pm-medium 0;
       }
@@ -100,6 +102,17 @@
       margin: 0 $pm-large;
     }
   }
+}
+
+.nav__menu__logo {
+  height: 50px;
+  &:hover {
+    transform-origin:  top;
+		animation-name: dangle;
+		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: 1;
+	}
 }
 
 .nav-is-active {
