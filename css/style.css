@@ -344,6 +344,11 @@ section > h2 {
   padding-top: 0.5em;
 }
 
+section > div {
+  max-width: 1400px;
+  margin: auto;
+}
+
 h2,
 h3,
 h4 {
@@ -384,9 +389,6 @@ h4 {
 }
 
 .about__container {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 1400px;
   padding-bottom: 200px;
 }
 
