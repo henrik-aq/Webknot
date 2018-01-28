@@ -71,7 +71,6 @@
     &:hover {
       color: $color-highlight;
     }
-
     &::after {
       content: "";
       display: block;
@@ -106,18 +105,14 @@
 
 .nav__menu__logo {
   height: 50px;
-  &:hover {
-    transform-origin:  top;
-		animation-name: dangle;
-		animation-duration: 2s;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: 1;
-	}
+  @include dangle-logo(1);
 }
 
 .nav-is-active {
   animation: menuAnimationOn 0.5s 1;
   transform: scaleY(1);
+  @include dangle-logo(1);
+
 }
 
 .nav-not-active {
