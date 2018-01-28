@@ -20,30 +20,13 @@ h4 {
     text-align: center;
 }
 
-.background--wrapper {
-    position: absolute;
-    width: 100%;
-    height: 130em;
-    top: 40%;
-    overflow: hidden;
-    z-index: -1;
-    @media screen and (min-width: $breakpoint-tablet) {
-        height: 110em;
-    }
-    @media screen and (min-width: $breakpoint-desktop) {
-        top: 45%;
-        height: 100em;
-    }
+.background__top-skew {
+  width: 100%;
+  margin-bottom: -5px;
 }
 
-.background {
-    transform: rotate(1deg);
-    background-color: $color-background-alt;
-    height: 100%;
-    width: 100%;
-    @media screen and (min-width: $breakpoint-desktop) {
-        transform: rotate(2deg);
-    }
+.background__bottom-skew {
+  width: 100%;
 }
 
 // Header styling
@@ -63,12 +46,16 @@ h4 {
 }
 
 // About section
+.about {
+  background-color: #DADEDE;
+}
+
 .about__container {
-    margin: auto;
+    margin: 0 auto;
     width: 80%;
     z-index: 1;
     max-width: 1400px;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 
 .about__text {
@@ -76,15 +63,15 @@ h4 {
     text-justify: inter-word;
     line-height: $font-size-large;
     color: $color-text;
-    font-size: $font-size-small;
-    margin: $pm-large*2 0;
+    margin: 0;
+
     @media screen and (min-width: $breakpoint-tablet) {
-        margin: $pm-extra-large;
+        margin: 0 $pm-extra-large;
     }
     @media screen and (min-width: $breakpoint-desktop) {
         font-size: $font-size-medium;
         line-height: $font-size-large;
-        margin: $pm-extra-large $pm-extra-large*2;
+        margin: 0 $pm-extra-large*2;
     }
 }
 
@@ -97,14 +84,24 @@ h4 {
 }
 
 // Services section styling
-h3 {
-    margin-top: $pm-extra-large;
+
+.services {
+  background-color: #DADEDE;
+
+  h2 {
+    margin: 0;
+    padding: $pm-large 0;
+  }
+
+  h3 {
+      margin-top: $pm-extra-large;
+  }
 }
 
 .services__container {
     padding: $pm-small;
     font-size: $font-size-small;
-    margin-bottom: $pm-extra-large*2;
+    padding-bottom: $pm-extra-large*2;
 
     @media screen and (min-width: $breakpoint-tablet) {
         font-size: $font-size-medium;
