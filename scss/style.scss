@@ -90,8 +90,10 @@ h4 {
 
 // Services section styling
 
+// Services section styling
+
 .services {
-  background-color: #dadede;
+  background-color: #DADEDE;
 
   h2 {
     margin: 0;
@@ -99,70 +101,74 @@ h4 {
   }
 
   h3 {
-    margin-top: $pm-extra-large;
+      margin-top: $pm-extra-large;
   }
 }
 
 .services__container {
-  padding: $pm-small;
-  font-size: $font-size-small;
-  padding-bottom: $pm-extra-large*2;
-  @media screen and (min-width: $breakpoint-tablet) {
-    font-size: $font-size-medium;
     padding: $pm-small;
-    @include flex();
-  }
+    font-size: $font-size-small;
+    padding-bottom: $pm-extra-large*2;
 
-  img {
-    width: 40%;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        font-size: $font-size-medium;
+        padding: $pm-small;
+        @include flex();
+    }
+
+    img {
+      width: 40%;
+    }
 }
 
 .services__left {
-  @media screen and (min-width: $breakpoint-tablet) {
-    border-right: 1px solid #000;
-    height: 48em;
-    width: $width-third;
-    flex: 1 1 33%;
-    margin-left: $pm-small;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        border-right: 1px solid #000;
+        height: 48em;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 33%;
+                flex: 1 1 33%;
+        margin-left: $pm-small;
+    }
 }
 
 .services__center {
-  @media screen and (min-width: $breakpoint-tablet) {
-    float: left;
-    width: $width-third;
-    border-right: 1px solid #000;
-    height: 48em;
-    flex: 1 1 33%;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        float: left;
+        width: $width-third;
+        border-right: 1px solid #000;
+        height: 48em;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 33%;
+                flex: 1 1 33%;
+    }
 }
 
 .services__right {
-  @media screen and (min-width: $breakpoint-tablet) {
-    float: left;
-    width: $width-third;
-    flex: 1 1 33%;
-    margin-right: $pm-small;
-  }
+    @media screen and (min-width: $breakpoint-tablet) {
+        float: left;
+        width: $width-third;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 33%;
+                flex: 1 1 33%;
+        margin-right: $pm-small;
+    }
 }
 
 .services__list li {
-  list-style-type: disc;
-  margin: $pm-medium;
+    list-style-type: disc;
+    margin: $pm-medium;
 }
 
 .services__img {
-  text-align: center;
-  img {
-    clear: both;
-    height: 200px;
-    width: auto;
-  }
-  @supports ((display: -webkit-box) or (display: flex)) {
-    margin: $pm-large auto;
-    @include flex(row, center, center);
-  }
+    text-align: center;
+    img {
+        clear: both;
+    }
+    @supports ((display: -webkit-box) or (display: flex)) {
+        margin: $pm-large auto;
+        @include flex(row, center, center);
+    }
 }
 
 // Review section styling goes here

@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/IE-style.css",
+	"sources": [
+		"../scss/IE-style.scss",
+		"../scss/_variables.scss",
+		"../scss/_mixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n@import \"mixins\";\r\n\r\n.nav__menu {\r\n  li {\r\n    font-size: $font-size-medium;\r\n  }\r\n}\r\n\r\n.background__bottom-skew,\r\n.background__top-skew {\r\n  display: none;\r\n}\r\n\r\n.about__text {\r\n  padding-top: 1em;\r\n  font-size: 1.5em;\r\n}\r\n\r\n\r\n.services {\r\n  background-color: #dadede;\r\n}\r\n\r\n.services__container {\r\n  width: $width-full;\r\n}\r\n\r\n.services__left, .services__center, .services__right {\r\n  float: left;\r\n  width: 32%;\r\n}\r\n\r\n.reviews {\r\n  padding: $pm-extra-large 0;\r\n  clear: both;\r\n}\r\n\r\n.reviews__container {\r\n  width: $width-third;\r\n}\r\n\r\n.reviews__card {\r\n  clear: both;\r\n  p, img {\r\n    float: left;\r\n  }\r\n}\r\n\r\n.reviews__card__text {\r\n  width: 70%;\r\n}\r\n",
+		"// Colors\r\n$color-background: #f2f4f3;\r\n$color-background-alt: #dadede;\r\n$color-highlight: #d80303;\r\n$color-text: #09110e;\r\n\r\n// font sizing\r\n$font-size-extra-small: 0.8em;\r\n$font-size-small: 1em;\r\n$font-size-medium: 1.5em;\r\n$font-size-large: 2em;\r\n$font-size-extra-large: 3em;\r\n\r\n// paddings & margins\r\n$pm-small: 0.5em;\r\n$pm-medium: 1em;\r\n$pm-large: 2em;\r\n$pm-extra-large: 4em;\r\n\r\n// breakpoints\r\n$breakpoint-tablet: 768px;\r\n$breakpoint-desktop: 960px;\r\n\r\n// element width\r\n$width-full: 100%;\r\n$width-half: 50%;\r\n$width-third: 33%;\r\n$width-fourth: 25%;\r\n$width-fifth: 20%;\r\n",
+		"@mixin flex($direction: null, $justify: null, $align: null) {\r\n  display: flex;\r\n  flex-direction: $direction;\r\n  justify-content: $justify;\r\n  align-items: $align;\r\n}\r\n\r\n@mixin dangle-logo($count) {\r\n  .nav__menu__logo {\r\n    transform-origin: top;\r\n    animation-name: dangle;\r\n    animation-duration: 2s;\r\n    animation-timing-function: ease-in-out;\r\n    animation-iteration-count: $count;\r\n  }\r\n}\r\n"
+	],
+	"mappings": ";AAGA,AACE,UADQ,CACR,EAAE,CAAC;EACD,SAAS,ECIM,KAAK;CDHrB;;;AAGH,AAAA,wBAAwB;AACxB,AAAA,qBAAqB,CAAC;EACpB,OAAO,EAAE,IAAK;CACf;;;AAED,AAAA,YAAY,CAAC;EACX,WAAW,EAAE,GAAI;EACjB,SAAS,EAAE,KAAM;CAClB;;;AAGD,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAA,oBAAoB,CAAC;EACnB,KAAK,ECDM,IAAI;CDEhB;;;AAED,AAAA,eAAe,EAAE,AAAA,iBAAiB,EAAE,AAAA,gBAAgB,CAAC;EACnD,KAAK,EAAE,IAAK;EACZ,KAAK,EAAE,GAAI;CACZ;;;AAED,AAAA,QAAQ,CAAC;EACP,OAAO,ECjBQ,GAAG,CDiBO,CAAC;EAC1B,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,mBAAmB,CAAC;EAClB,KAAK,ECbO,GAAG;CDchB;;;AAED,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,IAAK;CAIb;;;AALD,AAEE,cAFY,CAEZ,CAAC,EAFH,AAEK,cAFS,CAET,GAAG,CAAC;EACL,KAAK,EAAE,IAAK;CACb;;;AAGH,AAAA,oBAAoB,CAAC;EACnB,KAAK,EAAE,GAAI;CACZ",
+	"names": []
+}
