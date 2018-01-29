@@ -371,12 +371,13 @@ h4 {
   line-height: 2em;
   color: #09110e;
   margin: 0;
+  padding: 2em 4em;
 }
 
 @media screen and (min-width: 768px) {
   /* line 66, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
   .about__text {
-    margin: 0 4em;
+    padding: 2em 8em;
   }
 }
 
@@ -385,7 +386,6 @@ h4 {
   .about__text {
     font-size: 1.5em;
     line-height: 2em;
-    margin: 0 8em;
   }
 }
 
@@ -404,13 +404,13 @@ h4 {
 
 /* line 93, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
 .services {
-  background-color: #dadede;
+  background-color: #DADEDE;
 }
 
 /* line 96, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
 .services h2 {
   margin: 0;
-  padding: 2em 0;
+  padding-bottom: 1em;
 }
 
 /* line 101, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
@@ -434,17 +434,16 @@ h4 {
   }
 }
 
-/* line 116, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
+/* line 117, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
 .services__container img {
   width: 40%;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 121, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
+  /* line 122, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
   .services__left {
     border-right: 1px solid #000;
     height: 48em;
-    width: 33%;
     flex: 1 1 33%;
     margin-left: 0.5em;
   }
@@ -482,11 +481,9 @@ h4 {
   text-align: center;
 }
 
-/* line 157, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
+/* line 158, E:/Skola/Nackademin Projekt/Webknot/scss/style.scss */
 .services__img img {
   clear: both;
-  height: 200px;
-  width: auto;
 }
 
 @supports (display: -webkit-box) or (display: flex) {
