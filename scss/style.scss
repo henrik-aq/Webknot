@@ -69,7 +69,7 @@ h4 {
   line-height: $font-size-large;
   color: $color-text;
   margin: 0;
-  padding: $pm-medium $pm-extra-large*2;
+  padding: $pm-large $pm-extra-large;
 
   @media screen and (min-width: $breakpoint-tablet) {
     padding: $pm-large $pm-extra-large*2;
@@ -87,8 +87,6 @@ h4 {
     font-size: $font-size-large;
   }
 }
-
-// Services section styling
 
 // Services section styling
 
@@ -125,9 +123,7 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         border-right: 1px solid #000;
         height: 48em;
-        -webkit-box-flex: 1;
-            -ms-flex: 1 1 33%;
-                flex: 1 1 33%;
+        flex: 1 1 33%;
         margin-left: $pm-small;
     }
 }
@@ -138,9 +134,7 @@ h4 {
         width: $width-third;
         border-right: 1px solid #000;
         height: 48em;
-        -webkit-box-flex: 1;
-            -ms-flex: 1 1 33%;
-                flex: 1 1 33%;
+        flex: 1 1 33%;
     }
 }
 
@@ -148,9 +142,7 @@ h4 {
     @media screen and (min-width: $breakpoint-tablet) {
         float: left;
         width: $width-third;
-        -webkit-box-flex: 1;
-            -ms-flex: 1 1 33%;
-                flex: 1 1 33%;
+        flex: 1 1 33%;
         margin-right: $pm-small;
     }
 }
@@ -162,9 +154,11 @@ h4 {
 
 .services__img {
     text-align: center;
+
     img {
         clear: both;
     }
+
     @supports ((display: -webkit-box) or (display: flex)) {
         margin: $pm-large auto;
         @include flex(row, center, center);
