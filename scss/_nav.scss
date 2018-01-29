@@ -28,9 +28,7 @@
   height: 4px;
   background-color: $color-text;
   margin-bottom: $pm-small;
-  -webkit-transition: 0.3s ease;
-       -o-transition: 0.3s ease;
-          transition: 0.3s ease;
+  transition: 0.3s ease;
 
   @media screen and (min-width: $breakpoint-tablet) {
     height: 6px;
@@ -48,12 +46,8 @@
   width: $width-full;
   padding: $pm-large 0;
   text-align: center;
-  -webkit-transform-origin: top;
-      -ms-transform-origin: top;
-          transform-origin: top;
-  -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-          transform: scaleY(0);
+  transform-origin: top;
+  transform: scaleY(0);
 
   ul {
     padding: 0;
@@ -77,25 +71,18 @@
     &:hover {
       color: $color-highlight;
     }
-
     &::after {
       content: "";
       display: block;
       bottom: 0;
       height: 2px;
       background-color: $color-highlight;
-      -webkit-transition: 0.2s ease;
-      -o-transition: 0.2s ease;
       transition: 0.2s ease;
-      -webkit-transform: scaleX(0);
-          -ms-transform: scaleX(0);
-              transform: scaleX(0);
+      transform: scaleX(0);
     }
 
     &:hover::after {
-      -webkit-transform: scaleX(1);
-          -ms-transform: scaleX(1);
-              transform: scaleX(1);
+      transform: scaleX(1);
     }
   }
 
@@ -105,9 +92,7 @@
 
   @media screen and (min-width: $breakpoint-desktop) {
     position: fixed;
-    -webkit-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
     padding: $pm-medium 0;
     text-align: center;
 
@@ -118,18 +103,19 @@
   }
 }
 
+.nav__menu__logo {
+  height: 50px;
+  @include dangle-logo(1);
+}
+
 .nav-is-active {
-  -webkit-animation: menuAnimationOn 0.5s 1;
-          animation: menuAnimationOn 0.5s 1;
-  -webkit-transform: scaleY(1);
-      -ms-transform: scaleY(1);
-          transform: scaleY(1);
+  animation: menuAnimationOn 0.5s 1;
+  transform: scaleY(1);
+  @include dangle-logo(1);
+
 }
 
 .nav-not-active {
-  -webkit-animation: menuAnimationOff 0.3s 1;
-          animation: menuAnimationOff 0.3s 1;
-  -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-          transform: scaleY(0);
+  animation: menuAnimationOff 0.3s 1;
+  transform: scaleY(0);
 }
