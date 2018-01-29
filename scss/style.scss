@@ -69,8 +69,11 @@ h4 {
   line-height: $font-size-large;
   color: $color-text;
   margin: 0;
-  padding: $pm-large $pm-extra-large*2;
+  padding: $pm-medium $pm-extra-large*2;
 
+  @media screen and (min-width: $breakpoint-tablet) {
+    padding: $pm-large $pm-extra-large*2;
+  }
   @media screen and (min-width: $breakpoint-desktop) {
     font-size: $font-size-medium;
     line-height: $font-size-large;
