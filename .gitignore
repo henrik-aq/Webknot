@@ -1,3 +1,7 @@
+.sass-cache/
+/css
+css/
+
 # Compiled source #
 ###################
 *.com
@@ -35,3 +39,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.css
+*.map
+.DS_Store
