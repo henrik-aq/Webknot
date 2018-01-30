@@ -1,7 +1,7 @@
 # Webknot
 
 ## Group members
-Webknot consists of Leo Karlsson, Gabriel Lundmark, Maia Donoga and Henrik Henrik from the front end developer class of 2017, Nackademin, Solna.
+Webknot consists of Leo Karlsson, Gabriel Lundmark, Maia Donoga and Henrik Andersson Qvarfordt from the front end developer class of 2017, Nackademin, Solna.
 
 ## Working methods
 We'll work using a variant of Kanban. Progressive enhancement methodology is applied to ensure we deliver the best possible experience to all visitors of our website.
