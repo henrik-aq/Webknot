@@ -30,14 +30,28 @@ h4 {
 }
 
 .background__top-skew {
+  height: $pm-extra-large*4;
+  width: 100%;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  background-color: #DADEDE;
+  /*
   width: 100%;
   margin-bottom: -5px;
+  */
 }
 
 .background__bottom-skew {
   position: relative;
+  top: -2px;
+  height: $pm-extra-large*4;
+  width: 100%;
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+  background-color: #DADEDE;
+  /*
+  position: relative;
   width: 100%;
   top: -1px;
+  */
 }
 
 // Header styling
