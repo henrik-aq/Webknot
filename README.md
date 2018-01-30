@@ -1,5 +1,8 @@
 # Webknot
 
+## Group members
+Webknot consists of Leo Karlsson, Gabriel Lundmark, Maia Donoga and Henrik Henrik from the front end developer class of 2017, Nackademin, Solna.
+
 ## Working methods
 We'll work using a variant of Kanban. Progressive enhancement methodology is applied to ensure we deliver the best possible experience to all visitors of our website.
 
@@ -22,11 +25,11 @@ We offer three distinct packages to suit your specific needs. We recommend that 
 * Everything from tier 1
 * Heroic exaggerations of achievements on LinkedIn (where possible)
 * Friendship grooming by careful evaluation and rejection of unwanted Facebook connections
-* AI simulation of your behavior with information gathered from your profile, using machine learning to reply to posts (for 2 years)
+* AI simulation of your behavior with information gathered from your profile, using machine learning to reply to posts for two years after passing (extensions are available)
 * Personalized .deceased domain for memorial site
 ### Tier 3: Immortal
 * Everything from tier 1 and 2
 * Permalife™ 3D printing filament from ashes enable relatives to construct objects with familiarity
 * Webknot-branded cedar wood casket and livestreamed cremation
 * Eligible for organ reservations and trading programs on Webknot Markets
-* Insurance: in case of false positives, we will provide services to ensure quick death using your preferred method
+* Insurance: In case of false positives, we will provide services to ensure swift death using your method of choice provided by our award-winning euthanizers
